@@ -1,4 +1,4 @@
-import logo from '../public/square_logo.';
+import logo from './assets/square_logo.png';
 import './App.css';
 
 function App() {
