@@ -13,10 +13,6 @@ function App() {
     <div>
       <div>
         <Navbar />
-<<<<<<< HEAD
-      </header>
-
-=======
       </div>
       <Routes>
         <Route path="/" element={<About />} />
@@ -26,7 +22,6 @@ function App() {
         <Route path="/chapters" element={<Chapters />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
->>>>>>> 86cdf213222204a4326b0f2d5080678fe8ca2811
     </div>
   );
 }
