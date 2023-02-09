@@ -1,6 +1,6 @@
 const About = () => {
     return(
-        <h1>About</h1>
+        <h1>Implement about page</h1>
     )
 }
 

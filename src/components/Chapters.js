@@ -1,6 +1,6 @@
 const Chapters = () => {
     return(
-        <h1>Chapters</h1>
+        <h1>Implement chapters change</h1>
     )
 }
 

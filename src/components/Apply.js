@@ -1,6 +1,6 @@
 const Apply = () => {
     return(
-        <h1>Apply</h1>
+        <h1>Implement apply page</h1>
     )
 }
 

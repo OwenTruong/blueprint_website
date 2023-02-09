@@ -1,6 +1,6 @@
 const Blog = () => {
     return(
-        <h1>Blog</h1>
+        <h1>Implement blog page</h1>
     )
 }
 
