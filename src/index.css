@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 .primary {
   color: #0078E8;
   background-color: #0078E8;

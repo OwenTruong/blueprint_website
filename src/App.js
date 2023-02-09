@@ -1,4 +1,3 @@
-import logo from './assets/square_logo.png';
 import Navbar from './components/Navbar';
 import './index.css';
 
@@ -8,7 +7,7 @@ function App() {
       <header className="App-header ">
         <Navbar />
       </header>
-      
+
     </div>
   );
 }
