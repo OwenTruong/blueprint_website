@@ -10,7 +10,10 @@ import Chapters from './components/Chapters';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <div>
+        <Navbar />
+      </div>
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/projects" element={<Projects />} />
