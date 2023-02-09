@@ -1,11 +1,34 @@
 # Stevens Blueprint Website
 
-Stevens Blueprint is a studen-run organization at Stevens Institute of Technology devoted to matching the skills of its members to our desire to see social good enacted in our community. Each semester, teams of 4-5 students work closely with a non-profit to bring technological solutions to the problems they face every day.
+![Blueprint](/src/assets/logo_banner.png "")
 
-## Setup
-1. git clone
+Stevens Blueprint is a (TBD) studen-run organization at Stevens Institute of Technology devoted to matching the skills of its members to our desire to see social good enacted in our community. Each semester, teams of 4-5 students work closely with a non-profit to bring technological solutions to the problems they face every day.
 
+## Local Setup
+1. clone repo locally 
+```
+git clone https://github.com/...
+```
+2. install all dependencies
+```
+npm install
+```
+3. run
+```
+npm run
+```
 
+## Dependencies
+- ReactJS (CRA: react, react-dom, react-scripts)
+- Tailwind (PostCSS, AutoPrefixer)
+- React-Router
+
+## Team
+...
+
+<br>
+
+# Default Create-React-App Info
 
 ## Available Scripts
 
