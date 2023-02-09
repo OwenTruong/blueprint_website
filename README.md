@@ -1,6 +1,11 @@
-# Blueprint Website
+# Stevens Blueprint Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Stevens Blueprint is a studen-run organization at Stevens Institute of Technology devoted to matching the skills of its members to our desire to see social good enacted in our community. Each semester, teams of 4-5 students work closely with a non-profit to bring technological solutions to the problems they face every day.
+
+## Setup
+1. git clone
+
+
 
 ## Available Scripts
 
