@@ -15,7 +15,7 @@ npm install
 ```
 3. run
 ```
-npm run
+npm start
 ```
 
 ## Dependencies
