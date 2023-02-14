@@ -7,7 +7,7 @@ Stevens Blueprint is a (TBD) studen-run organization at Stevens Institute of Tec
 ## Local Setup
 1. clone repo locally (url to be changed but for now 2/9)
 ```
-git clone https://github.com/Caposto/blueprint_website.git
+git clone https://github.com/stevensblueprint/sit_blueprint_website.git
 ```
 2. install all dependencies
 ```
