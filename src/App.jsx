@@ -1,12 +1,13 @@
-import Navbar from './components/Navbar';
-import './index.css';
-import { Route, Routes } from "react-router-dom"
-import ErrorPage from './components/ErrorPage';
-import About from './components/About';
-import Apply from './components/Apply';
-import Projects from './components/Projects';
-import Blog from './components/Blog';
-import Chapters from './components/Chapters';
+import React from "react";
+import "./index.css";
+import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import ErrorPage from "./components/ErrorPage";
+import About from "./components/About";
+import Apply from "./components/Apply";
+import Projects from "./components/Projects";
+import Blog from "./components/Blog";
+import Chapters from "./components/Chapters";
 
 function App() {
   return (
