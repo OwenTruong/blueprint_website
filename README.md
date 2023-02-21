@@ -18,13 +18,28 @@ npm install
 npm start
 ```
 
+## Contributing Basics
+1. create new branch and enter new branch
+```
+git checkout -b "feature/featureName"
+```
+- i.e. if you want to create an About Page, you'd run the following 
+```
+git checkout -b "feature/aboutPage"
+```
+2. add, commit, push changes; this is sent will be a pull request
+```
+git add .
+git commit -m "commit message"
+git push
+```
+3. You're all set!
+
 ## Dependencies
 - ReactJS (CRA: react, react-dom, react-scripts)
 - Tailwind (PostCSS, AutoPrefixer)
 - React-Router
 
-## Team
-...
 
 <br>
 
