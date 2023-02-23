@@ -44,11 +44,15 @@ git checkout -b "feature/aboutPage"
 git add .
 git commit -m "commit message"
 ```
+
 - on your first push using your new local branch you will need run [-set-upstream](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/git-push-new-branch-remote-github-gitlab-upstream-example#:~:text=New%20Git%20branches%20and%20upstream,it%20synchronizes%20its%20commit%20history.)
+
 ```
 git push --set-upstream origin feature/featureName
 ```
+
 - after the first time, you are good to push as normal
+
 ```
 git push
 ```
@@ -57,18 +61,20 @@ git push
 
 ### Make sure you stay up to date with main branch
 
-Since your feature branch is expected to be pulled to main eventually, make sure your branch isn't too out of date. 
+Since your feature branch is expected to be pulled to main eventually, make sure your branch isn't too out of date.
 Do this occassionally so make sure your branch doesn't fall too far behind. [More Info](https://linuxhint.com/pull-master-into-branch-in-git/)
 
 1. fetch the data
+
 ```
 git fetch origin
 ```
+
 2. pull from the main branch
+
 ```
 git pull origin main
 ```
-
 
 ## Dependencies
 
