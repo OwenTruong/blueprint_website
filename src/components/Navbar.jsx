@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import logo from "../assets/logo_banner_negative.png";
 
 function Navbar() {
