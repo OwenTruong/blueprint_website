@@ -8,7 +8,7 @@ import Apply from "./components/Apply";
 import Projects from "./components/Projects";
 import Blog from "./components/Blog";
 import Chapters from "./components/Chapters";
-import Home from "./components/Home";
+import Home from "./components/Home/Home";
 
 function App() {
   return (
