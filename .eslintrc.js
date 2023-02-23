@@ -22,11 +22,4 @@ module.exports = {
     "react/react-in-jsx-scope": "off",
     "prettier/prettier": "error",
   },
-  theme: {
-    extend: {
-      height: {
-        'screen-75': '75vh',
-      }
-    }
-  }
 };
