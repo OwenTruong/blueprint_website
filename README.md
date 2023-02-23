@@ -31,6 +31,13 @@ git checkout -b "feature/aboutPage"
 ```
 git add .
 git commit -m "commit message"
+```
+- on your first push using your new local branch you will need run [-set-upstream](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/git-push-new-branch-remote-github-gitlab-upstream-example#:~:text=New%20Git%20branches%20and%20upstream,it%20synchronizes%20its%20commit%20history.)
+```
+git push --set-upstream origin feature/featureName
+```
+- after the first time, you are good to push as normal
+```
 git push
 ```
 3. You're all set!
