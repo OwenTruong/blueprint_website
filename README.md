@@ -42,6 +42,21 @@ git push
 ```
 3. You're all set!
 
+### Make sure you stay up to date with main branch
+
+Since your feature branch is expected to be pulled to main eventually, make sure your branch isn't too out of date. 
+Do this occassionally so make sure your branch doesn't fall too far behind. [More Info](https://linuxhint.com/pull-master-into-branch-in-git/)
+
+1. fetch the data
+```
+git fetch origin
+```
+2. pull from the main branch
+```
+git pull origin main
+```
+
+
 ## Dependencies
 - ReactJS (CRA: react, react-dom, react-scripts)
 - Tailwind (PostCSS, AutoPrefixer)
