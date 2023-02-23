@@ -10,6 +10,7 @@ module.exports = {
     "prettier",
     "eslint:recommended",
     "plugin:react/recommended",
+    "plugin:prettier/recommended",
   ],
   overrides: [],
   parserOptions: {
