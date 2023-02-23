@@ -23,7 +23,7 @@
     "eslint": "eslint src --ext .js,.jsx",
     "eslint:fix": "npm run eslint -- --fix",
     "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\"",
-    "prepare": "husky install"
+    "husky:init": "npx husky install && npx husky add .husky/pre-commit \"npx --no-install lint-staged\""
   },
   "eslintConfig": {
     "extends": [
@@ -58,8 +58,10 @@
     "tailwindcss": "^3.2.6"
   },
   "lint-staged": {
-    "*.+js|jsx": "eslint --fix",
-    "*.+json|css|md": "prettier --write"
+    "src/*.{js,jsx}": [
+      "eslint . --fix",
+      "prettier --write ."
+    ]
   },
   "husky": {
     "hooks": {
