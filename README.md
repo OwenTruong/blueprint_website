@@ -1,45 +1,58 @@
 # Stevens Blueprint Website
 
-![Blueprint](/src/assets/logo_banner.png "")
+![Blueprint](/src/assets/logo_banner.png)
 
 Stevens Blueprint is a (TBD) studen-run organization at Stevens Institute of Technology devoted to matching the skills of its members to our desire to see social good enacted in our community. Each semester, teams of 4-5 students work closely with a non-profit to bring technological solutions to the problems they face every day.
 
 ## Local Setup
+
 1. clone repo locally (url to be changed but for now 2/9)
+
 ```
 git clone https://github.com/stevensblueprint/sit_blueprint_website.git
 ```
+
 2. install all dependencies
+
 ```
 npm install
 ```
+
 3. run
+
 ```
 npm start
 ```
 
 ## Contributing Basics
+
 1. create new branch and enter new branch
+
 ```
 git checkout -b "feature/featureName"
 ```
-- i.e. if you want to create an About Page, you'd run the following 
+
+- i.e. if you want to create an About Page, you'd run the following
+
 ```
 git checkout -b "feature/aboutPage"
 ```
+
 2. add, commit, push changes; this is sent will be a pull request
+
 ```
 git add .
 git commit -m "commit message"
 git push
 ```
+
 3. You're all set!
 
 ## Dependencies
+
 - ReactJS (CRA: react, react-dom, react-scripts)
 - Tailwind (PostCSS, AutoPrefixer)
 - React-Router
-
 
 <br>
 
