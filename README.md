@@ -76,6 +76,22 @@ git fetch origin
 git pull origin main
 ```
 
+## Running ESLint and Prettier
+
+Linting is the automatic checking of progromattic and style errors within the code. Linters ensure consistency amongst every team members code and helps prevent merge conflicts. This website is using ESLint and Prettier to enforce formatting and code-quality rules. The project also uses Husky's pre-commit hooks to automatically run ESLint and Prettier on the src/ folder whenever you make a commit. However, to run the two manually:
+
+ESLint (the second option will fix most lint errors automatically, while the first stack traces them to show you where they are)
+```
+npm run eslint
+npm run eslint:fix
+```
+
+Prettier:
+```
+npm run format
+```
+
+
 ## Dependencies
 
 - ReactJS (CRA: react, react-dom, react-scripts)
