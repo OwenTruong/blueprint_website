@@ -50,19 +50,25 @@
     "eslint-plugin-jest": "^27.2.1",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
-    "husky": "^8.0.3",
+    "husky": "^4.3.8",
     "lint-staged": "^13.1.2",
     "postcss": "^8.4.21",
     "prettier": "^2.8.4",
     "tailwindcss": "^3.2.6"
   },
+  "lint-staged": {
+    "*.+{js|jsx}": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.+(json|css|md)": [
+      "prettier --write",
+      "git add"
+    ]
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  },
-  "lint-staged": {
-    "*.+{js|jsx}": ["eslint --fix", "git add"],
-    "*.+(json|css|md)": ["prettier --write", "git add"]
   }
 }
