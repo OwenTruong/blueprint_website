@@ -1,14 +1,6 @@
-import { useState } from "react";
-
 function Apply() {
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [email, setEmail] = useState("");
-
   function handleSubmit() {
-    setFirstName("");
-    setLastName("");
-    setEmail("");
+    console.log("Hello");
   }
 
   return (
