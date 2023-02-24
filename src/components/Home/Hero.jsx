@@ -15,7 +15,7 @@ function Hero() {
     },
     particles: {
       number: {
-        value: 50,
+        value: 20,
         density: {
           enable: false,
           value_area: 900,
@@ -52,24 +52,40 @@ function Hero() {
         speed: 1,
         direction: "none",
         random: false,
+        bounce: true,
         straight: false,
-        out_mode: "out",
+        out_mode: "bounce",
         attract: {
           enable: false,
-          rotateX: 600,
-          rotateY: 1200,
+          rotateX: 10,
+          rotateY: 10,
         },
       },
     },
     interactivity: {
       events: {
+        onDiv: [
+          {
+            enable: true,
+            selectors: "#bubble-repulse",
+            mode: "bounce",
+            type: "rectangle",
+          },
+        ],
         onhover: {
-          enable: true,
+          enable: false,
           mode: ["repulse"],
         },
-        resize: true,
+        resize: false,
       },
       modes: {
+        bubble: {
+          distance: 400,
+          duration: 2,
+          opacity: 0.8,
+          size: 6,
+          speed: 1,
+        },
         grab: {
           distance: 400,
           line_linked: {
@@ -77,7 +93,7 @@ function Hero() {
           },
         },
         repulse: {
-          distance: 100,
+          distance: 200,
         },
         push: {
           particles_nb: 4,
@@ -93,18 +109,23 @@ function Hero() {
   return (
     <div className="h-5/6 m-0 z-0 relative flex justify-center items-center content-center">
       <Particles id="tsparticles" init={particlesInit} options={particlesOptions} />
-      <section className="z-10 absolute inset-0 flex flex-col justify-center items-center content-center">
-        <img src={logo} className="max-w-md" alt="Blueprint Logo" />
-        <h2 className="text-2xl pb-6">Technology for Social Good</h2>
-        <div>
-          <button
-            type="button"
-            className="px-4 py-2 text-lg bg-blue-700 font-semibold rounded-full border text-white hover:text-black hover:bg-neutral-400"
-          >
-            Help us get started
-          </button>
+      <div className="z-10 absolute inset-0 flex flex-col justify-center items-center content-center">
+        <div
+          id="bubble-repulse"
+          className="flex justify-center flex-col items-center content-center"
+        >
+          <img src={logo} className="max-w-md" alt="Blueprint Logo" />
+          <h2 className="text-2xl pb-6 m-2">Technology for Social Good</h2>
+          <div className="">
+            <button
+              type="button"
+              className="px-4 py-2 text-lg bg-blue-700 font-semibold rounded-full border text-white hover:text-black hover:bg-neutral-400"
+            >
+              Help us get started
+            </button>
+          </div>
         </div>
-      </section>
+      </div>
     </div>
   );
 }
