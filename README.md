@@ -23,20 +23,22 @@ npm install
 ```
 npm start
 ```
+
 <br>
 
 ## Contributing Basics
 
 1. create new branch and enter new branch
+
 ```
 git checkout -b "feature/featureName"
 ```
 
 - Example: if you want to create an About Page, you'd run the following
 
-	```
-	git checkout -b "feature/aboutPage"
-	```
+  ```
+  git checkout -b "feature/aboutPage"
+  ```
 
 1. add, commit, push changes; this is sent will be a pull request
 
@@ -47,9 +49,9 @@ git commit -m "commit message"
 
 - on your first push using your new local branch you will need run [-set-upstream](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/git-push-new-branch-remote-github-gitlab-upstream-example#:~:text=New%20Git%20branches%20and%20upstream,it%20synchronizes%20its%20commit%20history.)
 
-	```
-	git push --set-upstream origin feature/featureName
-	```
+  ```
+  git push --set-upstream origin feature/featureName
+  ```
 
 - after the first time, you are good to push as normal
 
@@ -83,16 +85,17 @@ git pull origin main
 Linting is the automatic checking of progromattic and style errors within the code. Linters ensure consistency amongst every team members code and helps prevent merge conflicts. This website is using ESLint and Prettier to enforce formatting and code-quality rules. The project also uses Husky's pre-commit hooks to automatically run ESLint and Prettier on the src/ folder whenever you make a commit. However, to run the two manually:
 
 ESLint (the second option will fix most lint errors automatically, while the first stack traces them to show you where they are)
+
 ```
 npm run eslint
 npm run eslint:fix
 ```
 
 Prettier:
+
 ```
 npm run format
 ```
-
 
 ## Dependencies
 
