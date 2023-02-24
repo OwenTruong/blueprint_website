@@ -21,7 +21,8 @@ function Projects() {
             color: "white",
           }}
         >
-          It&apos;s our priority to build projects that are both accessible and transparent.
+          It&apos;s our priority to build projects that are both accessible and
+          transparent.
         </p>
         <p
           style={{
@@ -48,7 +49,6 @@ function Projects() {
           Project Showcase
         </h2>
       </div>
-
     </div>
   );
 }
