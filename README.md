@@ -23,22 +23,22 @@ npm install
 ```
 npm start
 ```
+<br>
 
 ## Contributing Basics
 
 1. create new branch and enter new branch
-
 ```
 git checkout -b "feature/featureName"
 ```
 
-- i.e. if you want to create an About Page, you'd run the following
+- Example: if you want to create an About Page, you'd run the following
 
-```
-git checkout -b "feature/aboutPage"
-```
+	```
+	git checkout -b "feature/aboutPage"
+	```
 
-2. add, commit, push changes; this is sent will be a pull request
+1. add, commit, push changes; this is sent will be a pull request
 
 ```
 git add .
@@ -47,9 +47,9 @@ git commit -m "commit message"
 
 - on your first push using your new local branch you will need run [-set-upstream](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/git-push-new-branch-remote-github-gitlab-upstream-example#:~:text=New%20Git%20branches%20and%20upstream,it%20synchronizes%20its%20commit%20history.)
 
-```
-git push --set-upstream origin feature/featureName
-```
+	```
+	git push --set-upstream origin feature/featureName
+	```
 
 - after the first time, you are good to push as normal
 
@@ -58,6 +58,8 @@ git push
 ```
 
 3. You're all set!
+
+<br>
 
 ### Make sure you stay up to date with main branch
 
