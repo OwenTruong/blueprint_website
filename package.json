@@ -12,6 +12,8 @@
     "react-router": "^6.8.1",
     "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
+    "react-tsparticles": "^2.9.3",
+    "tsparticles": "^2.9.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -21,7 +23,9 @@
     "eject": "react-scripts eject",
     "dev": "npx tailwindcss -i ./src/tailwind.css -o ./src/index.css --watch",
     "eslint": "eslint src --ext .js,.jsx",
-    "eslint:fix": "npm run eslint -- --fix"
+    "eslint:fix": "npm run eslint -- --fix",
+    "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\"",
+    "husky:init": "npx husky install && npx husky add .husky/pre-commit \"npx --no-install lint-staged\""
   },
   "eslintConfig": {
     "extends": [
@@ -49,7 +53,21 @@
     "eslint-plugin-jest": "^27.2.1",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
     "postcss": "^8.4.21",
+    "prettier": "^2.8.4",
     "tailwindcss": "^3.2.6"
+  },
+  "lint-staged": {
+    "src/*.{js,jsx}": [
+      "eslint . --fix",
+      "prettier --write ."
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
