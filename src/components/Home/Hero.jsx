@@ -110,15 +110,15 @@ function Hero() {
   };
 
   return (
-    <div className="h-5/6 m-0 z-0 relative flex justify-center items-center content-center">
+    <section className="relative h-5/6 m-0 z-0 flex justify-center items-center content-center">
       <Particles id="tsparticles" init={particlesInit} options={particlesOptions} />
       <div className="z-10 absolute inset-0 flex flex-col justify-center items-center content-center">
         <div
           id="bubble-repulse"
           className="flex justify-center flex-col items-center content-center"
         >
-          <img src={logo} className="max-w-md" alt="Blueprint Logo" />
-          <h2 className="text-2xl pb-6 m-2">Technology for Social Good</h2>
+          <img src={logo} className="w-96 px-10 sm:max-w-sm" alt="Blueprint Logo" />
+          <h2 className="pb-6 m-2 text-2xl font-bold">Technology for Social Good</h2>
           <div className="">
             <button
               type="button"
@@ -129,7 +129,7 @@ function Hero() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

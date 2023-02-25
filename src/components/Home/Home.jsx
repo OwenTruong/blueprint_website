@@ -1,12 +1,11 @@
 import Hero from "./Hero";
+import Who from "./Who";
 
 function Home() {
   return (
     <div className="h-screen">
       <Hero />
-      <section className="h-96 bg-blue-100">
-        <h1>Mission, Values...</h1>
-      </section>
+      <Who />
       <section className="h-96">
         <h1>How it works</h1>
       </section>
