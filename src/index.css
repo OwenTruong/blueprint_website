@@ -35,7 +35,7 @@ body {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 131px;
+  height: 190px;
 }
 
 .wave .shape-fill {

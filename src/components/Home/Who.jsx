@@ -24,7 +24,7 @@ function Who() {
           />
         </svg>
       </div>
-      <div className="pt-52 pl-20">
+      <div className="pt-60 px-20">
         <h1 className="text-white text-6xl font-bold">Who are we?</h1>
         <p className="text-xl text-white py-5">
           We are Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsam natus
