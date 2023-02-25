@@ -47,6 +47,9 @@ function Hero() {
           sync: false,
         },
       },
+      collisions: {
+        enable: false,
+      },
       move: {
         enable: true,
         speed: 1,
