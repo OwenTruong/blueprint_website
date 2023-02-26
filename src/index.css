@@ -16,11 +16,6 @@ body {
   left: 0;
 }
 
-.primary {
-  color: #0078e8;
-  background-color: #0078e8;
-}
-
 /* needed for svg wave on home page can be moved later on*/
 .wave {
   position: absolute;

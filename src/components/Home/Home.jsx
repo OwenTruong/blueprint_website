@@ -1,3 +1,4 @@
+import "./Home.css";
 import Hero from "./Hero";
 import Who from "./Who";
 
