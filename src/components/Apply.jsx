@@ -1,5 +1,8 @@
 import { useState } from "react";
 
+// const SHEET_ID = process.env.GOOGLE_SHEET_ID;
+// console.log(SHEET_ID);
+
 function Apply() {
   const [contactInfo, setContactInfo] = useState({
     firstName: "",
@@ -7,10 +10,13 @@ function Apply() {
     email: "",
   });
 
+  /* Sheet1!A1:A2 */
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    // Google Sheets Write Call
     // TODO: Test inputs for valid stevens email
-    // TODO: Add Google Sheets API call
+    // TODO: Load environment variables
     setContactInfo({
       firstName: "",
       lastName: "",
@@ -73,7 +79,7 @@ function Apply() {
                     className="mt-1 block w-full rounded-md border-gray-300 shadow-lg focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                   />
                 </label>
-                <input type="submit" value="Submit" />
+                <input type="submit" value="Submit" onSubmit={handleSubmit} />
               </div>
             </div>
           </div>
