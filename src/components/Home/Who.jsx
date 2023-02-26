@@ -1,6 +1,6 @@
 function Who() {
   return (
-    <section className="relative h-fit bg-primary">
+    <section className="relative h-fit bg-primary border-none">
       <div className="wave">
         <svg
           data-name="Layer 1"

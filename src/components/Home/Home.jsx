@@ -7,7 +7,7 @@ function Home() {
     <div className="h-screen">
       <Hero />
       <Who />
-      <section className="relative h-fit bg-negative">
+      <section className="relative h-fit bg-negative border-none">
         <div className="curve">
           <svg
             data-name="Layer 1"

@@ -1,4 +1,4 @@
-export const particlesOptions1 = {
+export const particlesOptions = {
   fullScreen: {
     enable: false,
     zIndex: -1,
@@ -6,7 +6,7 @@ export const particlesOptions1 = {
   fpsLimit: 60,
   particles: {
     number: {
-      value: window.innerWidth < 500 ? 10 : 25,
+      value: window.innerWidth < 628 ? 10 : 25,
       density: {
         enable: false,
         value_area: 900,

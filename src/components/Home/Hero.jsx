@@ -1,10 +1,10 @@
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import { particlesOptions1 } from "./ParticlesOptions";
+import { particlesOptions } from "./ParticlesOptions";
 import logo from "../../assets/logo_banner.png";
 
 function Hero() {
-  const particlesInit1 = async (main) => {
+  const particlesInit = async (main) => {
     // initialize tsParticles instance (main), can add custom shapes or presets
     await loadFull(main);
   };
@@ -15,13 +15,13 @@ function Hero() {
   // };
 
   return (
-    <section className="relative h-5/6 m-0 z-0 flex justify-center items-center content-center">
+    <section className="relative h-5/6 m-0 z-0 flex justify-center items-center content-center  border-none">
       <Particles
-        className="tsparticles"
-        init={particlesInit1}
-        options={particlesOptions1}
+        className="tsparticles border-none"
+        init={particlesInit}
+        options={particlesOptions}
       />
-      <div className="z-10 absolute inset-0 flex flex-col justify-center items-center content-center">
+      <div className="z-10 absolute inset-0 flex flex-col justify-center items-center content-center border-none">
         <div
           id="bubble-repulse"
           className="flex justify-center flex-col items-center content-center"
