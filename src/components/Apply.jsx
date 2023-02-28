@@ -1,5 +1,6 @@
 import { useState } from "react";
-
+// eslint-disable-next-line import/no-extraneous-dependencies
+import axios from "axios";
 // const SHEET_ID = process.env.GOOGLE_SHEET_ID;
 // console.log(SHEET_ID);
 
@@ -10,10 +11,16 @@ function Apply() {
     email: "",
   });
 
+  const [name, setName] = useState("");
+
   /* Sheet1!A1:A2 */
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    // FIXME: replace with sheet.best url
+    axios.post("https://", {
+      name,
+    });
     // Google Sheets Write Call
     // TODO: Test inputs for valid stevens email
     // TODO: Load environment variables
@@ -38,12 +45,10 @@ function Apply() {
                   First Name:
                   <input
                     type="text"
-                    name="firstName"
+                    name="name"
                     placeholder="First Name"
-                    value={contactInfo.firstName}
-                    onChange={(e) =>
-                      setContactInfo({ ...contactInfo, firstName: e.target.value })
-                    }
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
                     className="mt-1 block w-full rounded-md border-gray-300 shadow-lg focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                   />
                 </label>
@@ -79,7 +84,7 @@ function Apply() {
                     className="mt-1 block w-full rounded-md border-gray-300 shadow-lg focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                   />
                 </label>
-                <input type="submit" value="Submit" onSubmit={handleSubmit} />
+                <input type="submit" value="Submit" onClick={handleSubmit} />
               </div>
             </div>
           </div>
