@@ -4,7 +4,7 @@ import logo from "../assets/logo_banner_negative.png";
 
 function Navbar() {
   return (
-    <nav className="primary px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 border-b">
+    <nav className="bg-primary px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <a href="/" className="flex items-center">
           <img src={logo} className="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
