@@ -1,7 +1,7 @@
 function How() {
 	return (
 		<div>
-			<h1 className="text-center text-6xl">How it3 works</h1>
+			<h1 className="text-center text-6xl">How it works</h1>
 			<p className="text-center px-28"></p>
 		</div>
 	);
