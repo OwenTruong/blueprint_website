@@ -1,0 +1,52 @@
+/* needed for bubble in hero */
+.tsparticles {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+
+/* svg wave on home page (hero > who)*/
+.wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 190px;
+}
+
+.wave .shape-fill-wave {
+  fill: #ffffff;
+}
+
+/* svg curve on home page (who > how)*/
+.curve {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.curve svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 223px;
+}
+
+.curve .shape-fill-curve {
+  fill: #0078e8;
+}
