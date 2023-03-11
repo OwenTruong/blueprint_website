@@ -7,7 +7,7 @@ function Navbar() {
     <nav className="bg-primary px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <a href="/" className="flex items-center">
-          <img src={logo} className="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
+          <img src={logo} className="h-6 mr-3 sm:h-9" alt="Blueprint Logo" />
         </a>
         <div className="flex md:order-2">
           <button
@@ -48,14 +48,6 @@ function Navbar() {
             </li>
             <li>
               <Link
-                to="chapters"
-                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Chapters
-              </Link>
-            </li>
-            <li>
-              <Link
                 to="projects"
                 class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
@@ -64,18 +56,18 @@ function Navbar() {
             </li>
             <li>
               <Link
-                to="blog"
-                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Blog
-              </Link>
-            </li>
-            <li>
-              <Link
                 to="apply"
                 class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Apply
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="contact"
+                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              >
+                Contact
               </Link>
             </li>
           </ul>
