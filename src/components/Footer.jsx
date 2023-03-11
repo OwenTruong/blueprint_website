@@ -68,10 +68,7 @@ function Footer() {
       <hr className="my-6 border-gray-200 sm:mx-auto " />
       <div className="sm:flex sm:items-center sm:justify-between">
         <span className="text-sm text-gray-500 sm:text-center ">
-          © 2023{" "}
-          <a href="https://flowbite.com/" className="hover:underline">
-            Stevens Blueprint
-          </a>
+          © 2023 Stevens Blueprint
         </span>
         <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
           <a href="/" className="text-gray-500 hover:text-gray-900 ">
