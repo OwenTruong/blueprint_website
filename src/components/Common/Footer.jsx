@@ -2,15 +2,15 @@ import logo from "../../assets/logo_banner_negative.png";
 
 function Footer() {
   return (
-    <footer className="p-4 bg-slate-700 sm:p-6 ">
+    <footer className="p-4 bg-primary sm:p-6 ">
       <div className="md:flex md:justify-between">
-        <div className="mb-6 md:mb-0">
+        <div className="mb-6 md:mb-0 pr-8">
           <a href="/" className="flex items-center">
             <img src={logo} className="h-8 mr-3" alt="Blueprint Logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap " />
           </a>
         </div>
-        <div className="grid grid-cols-2 gap-8 sm:gap-20 sm:grid-cols-10">
+        <div className="grid grid-cols-2 gap-8 sm:gap-20 sm:grid-cols-3 pr-4">
           <div>
             <h2 className="mb-6 text-sm font-semibold text-gray-100 uppercase ">
               General
