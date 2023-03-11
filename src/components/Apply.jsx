@@ -1,6 +1,5 @@
 import { useState } from "react";
-// eslint-disable-next-line import/no-extraneous-dependencies
-import axios from "axios";
+
 // const SHEET_ID = process.env.GOOGLE_SHEET_ID;
 // console.log(SHEET_ID);
 
@@ -16,19 +15,6 @@ function Apply() {
   /* Sheet1!A1:A2 */
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // FIXME: replace with sheet.best url
-    axios.post("https://", {
-      name,
-    });
-    // Google Sheets Write Call
-    // TODO: Test inputs for valid stevens email
-    // TODO: Load environment variables
-    setContactInfo({
-      firstName: "",
-      lastName: "",
-      email: "",
-    });
   };
 
   return (
