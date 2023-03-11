@@ -1,6 +1,7 @@
 import "./Home.css";
 import Hero from "./Hero";
 import Who from "./Who";
+import Footer from "../Footer";
 
 function Home() {
   return (
@@ -36,6 +37,7 @@ function Home() {
       <section className="h-40 bg-blue-400">
         <h1>footer (this is not the correct blue)</h1>
       </section>
+      <Footer />
     </div>
   );
 }
