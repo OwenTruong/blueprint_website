@@ -5,8 +5,8 @@ import Footer from "./Footer";
 function Apply() {
   return (
     <div>
-      <div className="flex justify-center py-8 px-8">
-        <div className="w-1/2 mx-20">
+      <div className="flex justify-center align-center py-8">
+        <div className="w-1/4 mx-20">
           <div>
             <p className="text-2xl">Students</p>
             <img src={logo} className="object-cover py-8" alt="Blueprint Logo" />
@@ -21,7 +21,7 @@ function Apply() {
             </Link>
           </div>
         </div>
-        <div className="w-1/2 mx-20">
+        <div className="w-1/4 mx-20">
           <div>
             <p className="text-2xl">Nonprofits</p>
             <img src={logo} className="object-cover py-8" alt="Blueprint Logo" />
