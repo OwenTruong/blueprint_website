@@ -1,7 +1,7 @@
 import "./Home.css";
 import Hero from "./Hero";
 import Who from "./Who";
-import Footer from "../Footer";
+import Footer from "../Common/Footer";
 
 function Home() {
   return (
