@@ -10,7 +10,7 @@ function Footer() {
             <span className="self-center text-2xl font-semibold whitespace-nowrap " />
           </a>
         </div>
-        <div className="grid grid-cols-2 gap-8 sm:gap-20 sm:grid-cols-2">
+        <div className="grid grid-cols-2 gap-8 sm:gap-20 sm:grid-cols-10">
           <div>
             <h2 className="mb-6 text-sm font-semibold text-gray-100 uppercase ">
               Students
@@ -76,7 +76,10 @@ function Footer() {
             </svg>
             <span className="sr-only">Facebook page</span>
           </a>
-          <a href="/" className="text-gray-100 hover:text-gray-100 ">
+          <a
+            href="https://www.instagram.com/stevensblueprint/"
+            className="text-gray-100 hover:text-gray-100 "
+          >
             <svg
               className="w-5 h-5"
               fill="currentColor"
