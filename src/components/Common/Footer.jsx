@@ -13,23 +13,33 @@ function Footer() {
         <div className="grid grid-cols-2 gap-8 sm:gap-20 sm:grid-cols-10">
           <div>
             <h2 className="mb-6 text-sm font-semibold text-gray-100 uppercase ">
+              General
+            </h2>
+            <ul className="text-gray-100 ">
+              <li>
+                <a href="/about">About</a>
+              </li>
+              <li>
+                <a href="/projects">Projects</a>
+              </li>
+              <li>
+                <a href="/contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 className="mb-6 text-sm font-semibold text-gray-100 uppercase ">
               Students
             </h2>
             <ul className="text-gray-100 ">
               <li>
-                <a href="/apply" className="hover:underline ">
-                  Apply
-                </a>
+                <a href="/apply">Apply</a>
               </li>
               <li>
-                <a href="/apply" className="hover:underline">
-                  Process
-                </a>
+                <a href="/apply">Process</a>
               </li>
               <li>
-                <a href="/apply" className="hover:underline">
-                  FAQ
-                </a>
+                <a href="/apply">FAQ</a>
               </li>
             </ul>
           </div>
@@ -39,17 +49,13 @@ function Footer() {
             </h2>
             <ul className="text-gray-100 ">
               <li>
-                <a href="/apply" className="hover:underline">
-                  Apply
-                </a>
+                <a href="/apply">Apply</a>
               </li>
               <li>
                 <a href="/">Process</a>
               </li>
               <li>
-                <a href="/" className="hover:underline">
-                  FAQ
-                </a>
+                <a href="/">FAQ</a>
               </li>
             </ul>
           </div>
