@@ -15,7 +15,7 @@ function Apply() {
               Join Blueprint to gain hands on experience and give back to the community.
               REPLACE IMAGE ABOVE{" "}
             </p>
-            <Link to="/studentapplication" className="text-sky-500">
+            <Link to="/studentapplication" className="text-sky-500 text-lg">
               {" "}
               - Learn More -{" "}
             </Link>
@@ -29,7 +29,7 @@ function Apply() {
               {" "}
               Partner with Blueprint to meet your technology needs. REPLACE IMAGE ABOVE{" "}
             </p>
-            <Link to="/nonprofits" className="text-sky-500">
+            <Link to="/nonprofits" className="text-sky-500 text-lg">
               {" "}
               - Learn More -{" "}
             </Link>
