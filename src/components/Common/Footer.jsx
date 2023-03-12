@@ -1,35 +1,45 @@
-import logo from "../assets/logo_banner_negative.png";
+import logo from "../../assets/logo_banner_negative.png";
 
 function Footer() {
   return (
-    <footer className="p-4 bg-slate-700 sm:p-6 ">
+    <footer className="p-4 bg-primary sm:p-6 ">
       <div className="md:flex md:justify-between">
-        <div className="mb-6 md:mb-0">
+        <div className="mb-6 md:mb-0 pr-8">
           <a href="/" className="flex items-center">
             <img src={logo} className="h-8 mr-3" alt="Blueprint Logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap " />
           </a>
         </div>
-        <div className="grid grid-cols-2 gap-8 sm:gap-20 sm:grid-cols-2">
+        <div className="grid grid-cols-2 gap-8 sm:gap-20 sm:grid-cols-3 pr-4">
+          <div>
+            <h2 className="mb-6 text-sm font-semibold text-gray-100 uppercase ">
+              General
+            </h2>
+            <ul className="text-gray-100 ">
+              <li>
+                <a href="/about">About</a>
+              </li>
+              <li>
+                <a href="/projects">Projects</a>
+              </li>
+              <li>
+                <a href="/contact">Contact</a>
+              </li>
+            </ul>
+          </div>
           <div>
             <h2 className="mb-6 text-sm font-semibold text-gray-100 uppercase ">
               Students
             </h2>
             <ul className="text-gray-100 ">
               <li>
-                <a href="/apply" className="hover:underline ">
-                  Apply
-                </a>
+                <a href="/apply">Apply</a>
               </li>
               <li>
-                <a href="/apply" className="hover:underline">
-                  Process
-                </a>
+                <a href="/apply">Process</a>
               </li>
               <li>
-                <a href="/apply" className="hover:underline">
-                  FAQ
-                </a>
+                <a href="/apply">FAQ</a>
               </li>
             </ul>
           </div>
@@ -39,17 +49,13 @@ function Footer() {
             </h2>
             <ul className="text-gray-100 ">
               <li>
-                <a href="/apply" className="hover:underline">
-                  Apply
-                </a>
+                <a href="/apply">Apply</a>
               </li>
               <li>
                 <a href="/">Process</a>
               </li>
               <li>
-                <a href="/" className="hover:underline">
-                  FAQ
-                </a>
+                <a href="/">FAQ</a>
               </li>
             </ul>
           </div>
@@ -76,7 +82,10 @@ function Footer() {
             </svg>
             <span className="sr-only">Facebook page</span>
           </a>
-          <a href="/" className="text-gray-100 hover:text-gray-100 ">
+          <a
+            href="https://www.instagram.com/stevensblueprint/"
+            className="text-gray-100 hover:text-gray-100 "
+          >
             <svg
               className="w-5 h-5"
               fill="currentColor"
