@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { particlesOptions } from "./ParticlesOptions";
@@ -8,11 +9,6 @@ function Hero() {
     // initialize tsParticles instance (main), can add custom shapes or presets
     await loadFull(main);
   };
-
-  // const particlesInit2 = async (main) => {
-  //   // initialize tsParticles instance (main), can add custom shapes or presets
-  //   await loadFull(main);
-  // };
 
   return (
     <section className="relative h-5/6 m-0 z-0 flex justify-center items-center content-center  border-none">
@@ -29,12 +25,9 @@ function Hero() {
           <img src={logo} className="w-96 px-10 sm:max-w-sm" alt="Blueprint Logo" />
           <h2 className="pb-6 m-2 text-2xl font-bold">Technology for Social Good</h2>
           <div className="">
-            <button
-              type="button"
-              className="px-4 py-2 text-lg bg-blue-700 font-semibold rounded-full border text-white hover:text-black hover:bg-neutral-400"
-            >
+            <Link to="apply" type="button" className="blue-button">
               Help us get started
-            </button>
+            </Link>
           </div>
         </div>
       </div>
