@@ -12,6 +12,7 @@ import Home from "./components/Home/Home";
 import StudentApply from "./components/Applications/StudentApply";
 
 function App() {
+  // <StudentApply isOpen /> when applications are open
   return (
     <div>
       <div>
