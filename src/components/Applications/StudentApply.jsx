@@ -6,7 +6,11 @@ import Closed from "./Closed";
 function StudentApply({ isOpen }) {
   return (
     <div className="flex flex-col h-screen">
-      <div className="mb-auto"> {isOpen ? <Form /> : <Closed />} </div>
+      <div className="mb-auto">
+        <div className="grid h-screen place-items-center">
+          {isOpen ? <Form /> : <Closed />}
+        </div>
+      </div>
       <Footer />
     </div>
   );
