@@ -1,4 +1,6 @@
 function Form() {
+  // TODO: Modularize Form
+  // TODO: Handle Requests/Form Submission
   return (
     <>
       <div className="hidden sm:block" aria-hidden="true">
@@ -6,19 +8,8 @@ function Form() {
           <div className="border-t border-gray-200" />
         </div>
       </div>
-
       <div className="mt-10 sm:mt-0">
         <div className="md:grid md:grid-cols-3 md:gap-6">
-          <div className="md:col-span-1">
-            <div className="px-4 sm:px-0">
-              <h3 className="text-base font-semibold leading-6 text-gray-900">
-                Personal Information
-              </h3>
-              <p className="mt-1 text-sm text-gray-600">
-                Use a permanent address where you can receive mail.
-              </p>
-            </div>
-          </div>
           <div className="mt-5 md:col-span-2 md:mt-0">
             <form action="#" method="POST">
               <div className="overflow-hidden shadow sm:rounded-md">
@@ -71,88 +62,40 @@ function Form() {
                         className="mt-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                       />
                     </div>
-
-                    <div className="col-span-6 sm:col-span-3">
+                    <div className="col-span-6 sm:col-span-5">
                       <label
-                        htmlFor="country"
+                        htmlFor="about"
                         className="block text-sm font-medium leading-6 text-gray-900"
                       >
-                        Country
+                        Why are you interested in joining Blueprint?
                       </label>
-                      <select
-                        id="country"
-                        name="country"
-                        autoComplete="country-name"
-                        className="mt-2 block w-full rounded-md border-0 bg-white py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                      >
-                        <option>United States</option>
-                        <option>Canada</option>
-                        <option>Mexico</option>
-                      </select>
+                      <div className="mt-2">
+                        <textarea
+                          id="about"
+                          name="about"
+                          rows={3}
+                          className="mt-1 block w-full rounded-md border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:py-1.5 sm:text-sm sm:leading-6"
+                          defaultValue=""
+                        />
+                      </div>
                     </div>
 
-                    <div className="col-span-6">
+                    <div className="col-span-6 sm:col-span-6">
                       <label
-                        htmlFor="street-address"
+                        htmlFor="about"
                         className="block text-sm font-medium leading-6 text-gray-900"
                       >
-                        Street address
+                        What and experience can you bring to Blueprint?
                       </label>
-                      <input
-                        type="text"
-                        name="street-address"
-                        id="street-address"
-                        autoComplete="street-address"
-                        className="mt-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                      />
-                    </div>
-
-                    <div className="col-span-6 sm:col-span-6 lg:col-span-2">
-                      <label
-                        htmlFor="city"
-                        className="block text-sm font-medium leading-6 text-gray-900"
-                      >
-                        City
-                      </label>
-                      <input
-                        type="text"
-                        name="city"
-                        id="city"
-                        autoComplete="address-level2"
-                        className="mt-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                      />
-                    </div>
-
-                    <div className="col-span-6 sm:col-span-3 lg:col-span-2">
-                      <label
-                        htmlFor="region"
-                        className="block text-sm font-medium leading-6 text-gray-900"
-                      >
-                        State / Province
-                      </label>
-                      <input
-                        type="text"
-                        name="region"
-                        id="region"
-                        autoComplete="address-level1"
-                        className="mt-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                      />
-                    </div>
-
-                    <div className="col-span-6 sm:col-span-3 lg:col-span-2">
-                      <label
-                        htmlFor="postal-code"
-                        className="block text-sm font-medium leading-6 text-gray-900"
-                      >
-                        ZIP / Postal code
-                      </label>
-                      <input
-                        type="text"
-                        name="postal-code"
-                        id="postal-code"
-                        autoComplete="postal-code"
-                        className="mt-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                      />
+                      <div className="mt-2">
+                        <textarea
+                          id="about"
+                          name="about"
+                          rows={3}
+                          className="mt-1 block w-full rounded-md border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:py-1.5 sm:text-sm sm:leading-6"
+                          defaultValue=""
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
