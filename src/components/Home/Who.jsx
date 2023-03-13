@@ -25,6 +25,7 @@ function Who() {
         </svg>
       </div>
       <div className="pt-52 px-8 md:pt-56 md:px-24">
+        <h1 className="text-5xl text-white text-center font-bold py-5">Who are we?</h1>
         <p className="text-2xl text-white text-center py-5 pb-24">
           Blueprint is a student-led organization that creates innovative technological
           solutions to empowers non-profit organizations to promote public welfare
