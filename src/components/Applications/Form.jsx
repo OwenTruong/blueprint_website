@@ -1,3 +1,5 @@
+import FormRoles from "./FormRoles";
+
 function Form() {
   // TODO: Modularize Form
   // TODO: Handle Requests/Form Submission
@@ -99,6 +101,14 @@ function Form() {
                     </div>
                   </div>
                 </div>
+                <div className="hidden sm:block" aria-hidden="true">
+                  <div className="py-5">
+                    <div className="border-t border-gray-200" />
+                  </div>
+                </div>
+
+                <FormRoles />
+
                 <div className="bg-gray-50 px-4 py-3 text-right sm:px-6">
                   <button
                     type="submit"
