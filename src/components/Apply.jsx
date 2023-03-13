@@ -5,7 +5,7 @@ import Footer from "./Common/Footer";
 function Apply() {
   return (
     <div className="flex flex-col h-screen">
-      <div className="flex justify-center align-center py-8 mb-auto">
+      <div className="flex justify-center align-center py-32 mb-auto">
         <div className="w-1/4 mx-20">
           <div>
             <p className="text-2xl">Students</p>
