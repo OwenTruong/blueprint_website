@@ -3,6 +3,7 @@ function FormRoles() {
     { id: 1, name: "Developer" },
     { id: 2, name: "Designer" },
     { id: 3, name: "Product Manager" },
+    { id: 4, name: "Technical Lead" },
   ];
 
   const rolesCheckboxes = roles.map((role) => (
