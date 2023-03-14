@@ -9,6 +9,6 @@ body {
 
 @layer components {
   .blue-button {
-    @apply px-5 py-3 text-lg bg-primary font-semibold rounded-3xl border-white text-white hover:text-primary hover:bg-negative hover:border-primary border-2;
+    @apply px-5 py-3 text-lg bg-primary font-semibold rounded-2xl border-white text-white hover:text-primary hover:bg-negative hover:border-primary border-2;
   }
 }

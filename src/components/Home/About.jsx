@@ -1,4 +1,7 @@
-function Who() {
+import { Link } from "react-router-dom";
+import Carousel from "./Carousel";
+
+function About() {
   return (
     <section className="relative h-fit bg-primary border-none">
       <div className="wave">
@@ -26,15 +29,36 @@ function Who() {
       </div>
       <div className="pt-52 px-8 md:pt-56 md:px-24">
         <h1 className="text-3xl py-2 sm:text-5xl sm:py-5 text-white text-center font-bold ">
-          Who are we?
+          Mission
         </h1>
         <p className="text-md sm:text-2xl text-white text-center py-5 pb-24">
           Blueprint is a student-led organization that creates innovative technological
           solutions to empowers non-profit organizations to promote public welfare
         </p>
+        <h1 className="text-1xl py-2 sm:text-5xl sm:py-5 text-center text-white font-bold ">
+          Values
+        </h1>
+        <ul className="text-md sm:text-2xl text-white py-5 pb-24">
+          <li>Amplying Impact</li>
+          <li>Do Good For Good</li>
+          <li>Learning is a Team Sport</li>
+          <li>Culture is Key</li>
+        </ul>
+        <h1 className="text-3xl py-2 sm:text-5xl sm:py-5 text-white text-center font-bold ">
+          Who we are?
+        </h1>
+        <p className="text-md sm:text-2xl text-white text-center py-5 pb-24">
+          We are a group of students at Stevens Institute of Technology who have a passion
+          for technology and want to apply our talents towards social causes that can use
+          our help.
+        </p>
+        <Carousel />
+        <Link to="/about" className="p-2 text-md text-center text-white">
+          -Learn more-
+        </Link>
       </div>
     </section>
   );
 }
 
-export default Who;
+export default About;

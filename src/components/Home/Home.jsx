@@ -1,6 +1,6 @@
 import "./Home.css";
 import Hero from "./Hero";
-import Who from "./Who";
+import About from "./About";
 import How from "./How";
 import Footer from "../Common/Footer";
 
@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className="h-screen">
       <Hero />
-      <Who />
+      <About />
       <How />
       <section className="h-96 bg-blue-100">
         <h1>Apply?</h1>
