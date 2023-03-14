@@ -5,7 +5,7 @@ import Closed from "./Closed";
 import Step from "./Step";
 
 function StudentApply({ isOpen }) {
-  // Current Steps in the Stevens Bluepritn Application
+  // Current Steps in the Stevens Blueprint Application
   const applicationSteps = [
     {
       id: 1,
@@ -41,7 +41,7 @@ function StudentApply({ isOpen }) {
       <div className="mb-auto">
         <div>
           <p className="text-4xl py-8 pl-4">Developer Application Process</p>
-          <div>{stepDescriptionBlocks}</div>
+          <div className="px-40">{stepDescriptionBlocks}</div>
         </div>
         <div>{isOpen ? <Form /> : <Closed />}</div>
       </div>

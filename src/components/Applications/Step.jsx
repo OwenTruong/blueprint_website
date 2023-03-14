@@ -2,8 +2,8 @@ import PropTypes from "prop-types";
 
 function Step({ stepNumber, stepName, stepDescription }) {
   return (
-    <div className="flex items-center mb-6">
-      <div className="bg-blue-500 text-white font-bold rounded-full h-16 w-16 flex items-center justify-center">
+    <div className="flex items-center mb-6 py-4">
+      <div className="bg-blue-500 text-white font-bold rounded-full h-16 w-16 flex items-center justify-center px-8">
         {stepNumber}
       </div>
       <div className="ml-4">
