@@ -5,6 +5,7 @@ import Closed from "./Closed";
 import Step from "./Step";
 
 function StudentApply({ isOpen }) {
+  // Current Steps in the Stevens Bluepritn Application
   const applicationSteps = [
     {
       id: 1,
@@ -25,6 +26,7 @@ function StudentApply({ isOpen }) {
     },
   ];
 
+  // Map each step to a <Step /> component
   const stepDescriptionBlocks = applicationSteps.map((step) => (
     <Step
       key={step.id}
@@ -39,7 +41,7 @@ function StudentApply({ isOpen }) {
       <div className="mb-auto">
         <div>
           <p className="text-4xl py-8 pl-4">Developer Application Process</p>
-          {stepDescriptionBlocks}
+          <div>{stepDescriptionBlocks}</div>
         </div>
         <div>{isOpen ? <Form /> : <Closed />}</div>
       </div>

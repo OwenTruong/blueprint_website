@@ -2,16 +2,20 @@ import PropTypes from "prop-types";
 
 function Step({ stepNumber, stepName, stepDescription }) {
   return (
-    <div className="grid grid-rows-3 grid-flow-col gap-4 px-32 py-4">
-      <div className="row-span-3 bg-secondary text-8xl">{stepNumber}</div>
-      <div className="col-span-2 bg-slate-500">{stepName}</div>
-      <div className="row-span-2 col-span-2 bg-slate-500">{stepDescription} </div>
+    <div className="flex items-center mb-6">
+      <div className="bg-blue-500 text-white font-bold rounded-full h-16 w-16 flex items-center justify-center">
+        {stepNumber}
+      </div>
+      <div className="ml-4">
+        <h2 className="text-lg font-bold">{stepName}</h2>
+        <p className="text-gray-500">{stepDescription}</p>
+      </div>
     </div>
   );
 }
 
 Step.propTypes = {
-  stepNumber: PropTypes.string.isRequired,
+  stepNumber: PropTypes.number.isRequired,
   stepName: PropTypes.string.isRequired,
   stepDescription: PropTypes.string.isRequired,
 };
