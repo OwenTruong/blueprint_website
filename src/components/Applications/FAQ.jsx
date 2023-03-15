@@ -2,9 +2,9 @@ import PropTypes from "prop-types";
 
 function FAQ({ question, answer }) {
   return (
-    <div>
-      <h1>{question}</h1>
-      <h2>{answer}</h2>
+    <div className="flex flex-col text-lg py-2">
+      <p className="md:font-bold">{question}</p>
+      <p className="text-slate-700">{answer}</p>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import Footer from "../Common/Footer";
 import Form from "./Form";
-import Closed from "./Closed";
+import Closed from "./FormClosed";
 import Step from "./Step";
 import FAQ from "./FAQ";
 
