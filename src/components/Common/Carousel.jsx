@@ -1,6 +1,8 @@
 import { useState, useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 
+// TODO: Fix slider in carousel, since the buttons are inconsistent with the images that are present
+
 function Carousel({ imageData }) {
   const maxScrollWidth = useRef(0);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -57,7 +59,6 @@ function Carousel({ imageData }) {
             disabled={isDisabled("prev")}
           >
             <svg
-              xmlns="http://www.w3.org/2000/svg"
               className="h-12 w-20 -ml-5"
               fill="none"
               viewBox="0 0 24 24"
@@ -75,7 +76,6 @@ function Carousel({ imageData }) {
             disabled={isDisabled("next")}
           >
             <svg
-              xmlns="http://www.w3.org/2000/svg"
               className="h-12 w-20 -ml-5"
               fill="none"
               viewBox="0 0 24 24"
