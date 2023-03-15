@@ -14,8 +14,8 @@ function Form() {
             <FormRoles />
           </div>
           <div className="bg-gray-50 px-4 py-3 text-right sm:px-6">
-            <button type="submit" className="blue-button">
-              Save
+            <button type="submit" className="blue-button-sm">
+              Submit
             </button>
           </div>
         </div>
