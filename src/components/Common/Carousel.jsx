@@ -48,7 +48,7 @@ function Carousel({ imageData }) {
 
   return (
     <div className="carousel my-2 mx-auto">
-      <div className="relative overflow-hidden">
+      <div className="relative">
         <div className="flex justify-between absolute top left w-full h-full">
           <button
             type="button"
@@ -89,26 +89,16 @@ function Carousel({ imageData }) {
         </div>
         <div
           ref={carousel}
-          className="carousel-container relative flex gap-1 overflow-hidden scroll-smooth snap-x snap-mandatory touch-pan-x z-0"
+          className="relative flex gap-1 overflow-hidden scroll-smooth snap-x snap-mandatory touch-pan-x z-0 w-full"
         >
           {resources.map((resource) => {
             return (
-              <div
+              <img
                 key={resource.title}
-                className="carousel-item text-center relative w-64 h-64 snap-start"
-              >
-                <div
-                  href={resource.link}
-                  className="h-full w-full aspect-square block bg-origin-padding bg-left-top bg-cover bg-no-repeat z-0"
-                  style={{ backgroundImage: `url(${resource.imageUrl || ""})` }}
-                >
-                  <img
-                    src={resource.imageUrl || ""}
-                    alt={resource.title}
-                    className="w-full aspect-square hidden"
-                  />
-                </div>
-              </div>
+                alt={resource.title}
+                className="w-auto h-96 snap-start aspect-screen bg-origin-padding bg-left-top bg-cover bg-no-repeat z-0"
+                src={resource.imageUrl}
+              />
             );
           })}
         </div>
