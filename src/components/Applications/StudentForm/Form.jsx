@@ -5,7 +5,7 @@ import FormQuestions from "./FormQuestions";
 function Form() {
   // TODO: Handle Requests/Form Submission
   return (
-    <>
+    <div>
       <div className="hidden sm:block" aria-hidden="true">
         <div className="py-5">
           <div className="border-t border-gray-200" />
@@ -34,7 +34,7 @@ function Form() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

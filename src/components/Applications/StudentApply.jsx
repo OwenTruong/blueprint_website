@@ -1,17 +1,15 @@
 import PropTypes from "prop-types";
 import Footer from "../Common/Footer";
-import Form from "./Form";
-import Closed from "./FormClosed";
+import Form from "./StudentForm/Form";
+import Closed from "./StudentForm/FormClosed";
 import Step from "./Step";
 import FAQ from "./FAQ";
 import content from "./Content.json";
 
 function StudentApply({ isOpen }) {
-  // Current Steps in the Stevens Blueprint Application
   const APPLICATION_STEPS = content.applicationSteps;
   const FREQUENTLY_ASKED_QUESTIONS = content.frequentlyAskedQuestions;
 
-  // Map each step to a <Step /> component
   const stepDescriptionBlocks = APPLICATION_STEPS.map((step) => (
     <Step
       key={step.id}
@@ -33,10 +31,12 @@ function StudentApply({ isOpen }) {
           <div className="px-40">{stepDescriptionBlocks}</div>
         </div>
         <div>
-          <h1 className="text-4xl">FAQ</h1>
+          <h1 className="text-4xl py-8">Frequently Asked Questions (FAQ)</h1>
           <div className="px-40">{faqBlocks}</div>
         </div>
-        <div>{isOpen ? <Form /> : <Closed />}</div>
+        <div className="grid h-screen place-items-center">
+          {isOpen ? <Form /> : <Closed />}
+        </div>
       </div>
       <Footer />
     </div>
