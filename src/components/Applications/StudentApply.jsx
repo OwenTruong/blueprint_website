@@ -3,6 +3,7 @@ import Footer from "../Common/Footer";
 import Form from "./Form";
 import Closed from "./Closed";
 import Step from "./Step";
+import FAQ from "./FAQ";
 
 function StudentApply({ isOpen }) {
   // Current Steps in the Stevens Blueprint Application
@@ -26,6 +27,29 @@ function StudentApply({ isOpen }) {
     },
   ];
 
+  const frequentlyAskedQuestions = [
+    {
+      id: 1,
+      question: "I don’t have a lot of experience, should I still apply?",
+      answer: "Yes",
+    },
+    {
+      id: 2,
+      question: "Can I be a part of Blueprint if I’m on co-op?",
+      answer: "Yes",
+    },
+    {
+      id: 3,
+      question: "How much time do I have to commit to Blueprint per week?",
+      answer: "7-10 hours",
+    },
+    {
+      id: 4,
+      question: "Do I get to choose the project I work on?",
+      answer: "Yes",
+    },
+  ];
+
   // Map each step to a <Step /> component
   const stepDescriptionBlocks = applicationSteps.map((step) => (
     <Step
@@ -36,12 +60,20 @@ function StudentApply({ isOpen }) {
     />
   ));
 
+  const faqBlocks = frequentlyAskedQuestions.map((question) => (
+    <FAQ key={question.id} question={question.question} answer={question.answer} />
+  ));
+
   return (
     <div className="flex flex-col h-screen">
-      <div className="mb-auto">
+      <div className="mb-auto px-40">
         <div>
-          <p className="text-4xl py-8 pl-4">Developer Application Process</p>
+          <h1 className="text-4xl py-8">Developer Application Process</h1>
           <div className="px-40">{stepDescriptionBlocks}</div>
+        </div>
+        <div>
+          <h1 className="text-4xl">FAQ</h1>
+          <div className="px-40">{faqBlocks}</div>
         </div>
         <div>{isOpen ? <Form /> : <Closed />}</div>
       </div>
