@@ -4,54 +4,15 @@ import Form from "./Form";
 import Closed from "./FormClosed";
 import Step from "./Step";
 import FAQ from "./FAQ";
+import content from "./Content.json";
 
 function StudentApply({ isOpen }) {
   // Current Steps in the Stevens Blueprint Application
-  const applicationSteps = [
-    {
-      id: 1,
-      stepName: "Written Application",
-      stepDescription: "Submit your Resume and answer a few basic questions",
-    },
-    {
-      id: 2,
-      stepName: "Coffee Chats",
-      stepDescription:
-        "A 15-30 minute coffee chat with the Executive Board, which will provide us with an opportunity to learn more about you, your motivations, and your goals for joining Blueprint.",
-    },
-    {
-      id: 3,
-      stepName: "Project Assignment",
-      stepDescription:
-        "Project Assignment: For this semester we will be taking on 2-3 Non-Profit Organization (NPO) projects, for a total of around 2-3 project leads and 6-12 developers. Don't be disheartened if you're not selected for this first wave of projects!  We will be holding workshops to help prepare you for future projects and forming new teams for the next wave of NPOs in need.",
-    },
-  ];
-
-  const frequentlyAskedQuestions = [
-    {
-      id: 1,
-      question: "I don’t have a lot of experience, should I still apply?",
-      answer: "Yes",
-    },
-    {
-      id: 2,
-      question: "Can I be a part of Blueprint if I’m on co-op?",
-      answer: "Yes",
-    },
-    {
-      id: 3,
-      question: "How much time do I have to commit to Blueprint per week?",
-      answer: "7-10 hours",
-    },
-    {
-      id: 4,
-      question: "Do I get to choose the project I work on?",
-      answer: "Yes",
-    },
-  ];
+  const APPLICATION_STEPS = content.applicationSteps;
+  const FREQUENTLY_ASKED_QUESTIONS = content.frequentlyAskedQuestions;
 
   // Map each step to a <Step /> component
-  const stepDescriptionBlocks = applicationSteps.map((step) => (
+  const stepDescriptionBlocks = APPLICATION_STEPS.map((step) => (
     <Step
       key={step.id}
       stepNumber={step.id}
@@ -60,7 +21,7 @@ function StudentApply({ isOpen }) {
     />
   ));
 
-  const faqBlocks = frequentlyAskedQuestions.map((question) => (
+  const faqBlocks = FREQUENTLY_ASKED_QUESTIONS.map((question) => (
     <FAQ key={question.id} question={question.question} answer={question.answer} />
   ));
 
