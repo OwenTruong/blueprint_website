@@ -1,0 +1,42 @@
+{
+  "applicationSteps": [
+    {
+      "id": 1,
+      "stepName": "Written Application",
+      "stepDescription": "Submit your Resume and answer a few basic questions"
+    },
+    {
+      "id": 2,
+      "stepName": "Coffee Chats",
+      "stepDescription": "A 15-30 minute coffee chat with the Executive Board, which will provide us with an opportunity to learn more about you, your motivations, and your goals for joining Blueprint."
+    },
+    {
+      "id": 3,
+      "stepName": "Project Assignment",
+      "stepDescription": "Project Assignment: For this semester we will be taking on 2-3 Non-Profit Organization (NPO) projects, for a total of around 2-3 project leads and 6-12 developers. Don't be disheartened if you're not selected for this first wave of projects!  We will be holding workshops to help prepare you for future projects and forming new teams for the next wave of NPOs in need."
+    }
+  ],
+
+  "frequentlyAskedQuestions": [
+    {
+      "id": 1,
+      "question": "I don’t have a lot of experience, should I still apply?",
+      "answer": "Yes! We strongly encourage you to still apply. Here at Blueprint each team is distributed and formed based on experience. So there will be plenty opportunities for knowledge sharing, mentorship, and collaboration!"
+    },
+    {
+      "id": 2,
+      "question": "Can I be a part of Blueprint if I’m on co-op?",
+      "answer": "Yes! Whether you’re taking classes or on co-op, as long as you have the time to contribute we’d love to work with you!"
+    },
+    {
+      "id": 3,
+      "question": "How much time do I have to commit to Blueprint per week?",
+      "answer": "About 10 hours per week (give or take depending on the workload for that week or sprint)"
+    },
+    {
+      "id": 4,
+      "question": "Do I get to choose the project I work on?",
+      "answer": "We try our best to match you with the project you want most. We can’t promise you’ll work on your first choice, but we make sure that everyone works on something they’re interested in!"
+    }
+  ]
+}

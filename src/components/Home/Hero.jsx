@@ -25,7 +25,7 @@ function Hero() {
           <img src={logo} className="w-96 px-10 sm:max-w-sm" alt="Blueprint Logo" />
           <h2 className="pb-6 m-2 text-2xl font-bold">Technology for Social Good</h2>
           <div className="">
-            <Link to="apply" type="button" className="blue-button">
+            <Link to="apply" type="button" className="blue-button-lg">
               Help us get started
             </Link>
           </div>
