@@ -2,10 +2,10 @@ function FormBasics() {
   return (
     <div className="py-4">
       <div className="grid grid-cols-6 gap-6">
-        <div className="col-span-6 sm:col-span-2">
+        <div className="sm:col-span-2">
           <label
             htmlFor="first-name"
-            className="block text-sm font-medium leading-6 text-gray-900"
+            className="block font-medium leading-6 text-gray-900"
           >
             First name
           </label>
@@ -14,14 +14,14 @@ function FormBasics() {
             name="first-name"
             id="first-name"
             autoComplete="given-name"
-            className="mt-2 px-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+            className="mt-2 px-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:leading-6"
           />
         </div>
 
         <div className="col-span-6 sm:col-span-2">
           <label
             htmlFor="last-name"
-            className="block text-sm font-medium leading-6 text-gray-900"
+            className="block font-medium leading-6 text-gray-900"
           >
             Last name
           </label>
@@ -30,14 +30,14 @@ function FormBasics() {
             name="last-name"
             id="last-name"
             autoComplete="family-name"
-            className="mt-2 px-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+            className="mt-2 px-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:leading-6"
           />
         </div>
 
         <div className="col-span-6 sm:col-span-2">
           <label
             htmlFor="graduation-year"
-            className="block text-sm font-medium leading-6 text-gray-900"
+            className="block font-medium leading-6 text-gray-900"
           >
             Graduation year
           </label>
@@ -46,14 +46,14 @@ function FormBasics() {
             name="graduation-year"
             id="graduation-year"
             autoComplete="four-year"
-            className="mt-2 px-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+            className="mt-2 px-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:leading-6"
           />
         </div>
 
         <div className="col-span-5 sm:col-span-3">
           <label
             htmlFor="email-address"
-            className="block text-sm font-medium leading-6 text-gray-900"
+            className="block font-medium leading-6 text-gray-900"
           >
             Email address
           </label>
@@ -62,14 +62,11 @@ function FormBasics() {
             name="email-address"
             id="email-address"
             autoComplete="email"
-            className="mt-2 px-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+            className="mt-2 px-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:leading-6"
           />
         </div>
         <div className="col-span-5 sm:col-span-3">
-          <label
-            htmlFor="major"
-            className="block text-sm font-medium leading-6 text-gray-900"
-          >
+          <label htmlFor="major" className="block font-medium leading-6 text-gray-900">
             Major
           </label>
           <input
@@ -77,7 +74,7 @@ function FormBasics() {
             name="major"
             id="major"
             autoComplete="cs"
-            className="mt-2 px-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+            className="mt-2 px-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:leading-6"
           />
         </div>
       </div>
