@@ -24,7 +24,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/apply" element={<Apply />} />
         <Route path="/nonprofits" element={<Nonprofits />} />
-        <Route path="/studentapplication" element={<StudentApply isOpen />} />
+        <Route path="/studentapplication" element={<StudentApply />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
