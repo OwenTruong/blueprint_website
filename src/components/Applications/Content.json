@@ -1,5 +1,5 @@
 {
-  "applicationSteps" : [
+  "applicationSteps": [
     {
       "id": 1,
       "stepName": "Written Application",
@@ -8,18 +8,16 @@
     {
       "id": 2,
       "stepName": "Coffee Chats",
-      "stepDescription":
-        "A 15-30 minute coffee chat with the Executive Board, which will provide us with an opportunity to learn more about you, your motivations, and your goals for joining Blueprint."
+      "stepDescription": "A 15-30 minute coffee chat with the Executive Board, which will provide us with an opportunity to learn more about you, your motivations, and your goals for joining Blueprint."
     },
     {
       "id": 3,
       "stepName": "Project Assignment",
-      "stepDescription":
-        "Project Assignment: For this semester we will be taking on 2-3 Non-Profit Organization (NPO) projects, for a total of around 2-3 project leads and 6-12 developers. Don't be disheartened if you're not selected for this first wave of projects!  We will be holding workshops to help prepare you for future projects and forming new teams for the next wave of NPOs in need."
+      "stepDescription": "Project Assignment: For this semester we will be taking on 2-3 Non-Profit Organization (NPO) projects, for a total of around 2-3 project leads and 6-12 developers. Don't be disheartened if you're not selected for this first wave of projects!  We will be holding workshops to help prepare you for future projects and forming new teams for the next wave of NPOs in need."
     }
   ],
 
-  "frequentlyAskedQuestions" : [
+  "frequentlyAskedQuestions": [
     {
       "id": 1,
       "question": "I don’t have a lot of experience, should I still apply?",
