@@ -10,7 +10,7 @@ function Hero() {
   };
 
   return (
-    <section className="relative h-5/6 m-0 z-0 flex justify-center items-center content-center  border-none">
+    <section className="relative h-[75vh] m-0 z-0 flex justify-center items-center content-center  border-none">
       <Particles
         className="tsparticles border-none"
         init={particlesInit}
