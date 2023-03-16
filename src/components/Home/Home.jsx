@@ -1,15 +1,17 @@
 import "./Home.css";
 import Hero from "./Hero";
+import Blurb from "./Blurb";
 import About from "./About";
-import How from "./How";
+import Projects from "./Projects";
 import Footer from "../Common/Footer";
 
 function Home() {
   return (
     <div className="h-screen">
       <Hero />
+      <Blurb />
       <About />
-      <How />
+      <Projects />
       <section className="h-96 bg-blue-100">
         <h1>Apply?</h1>
       </section>
