@@ -2,7 +2,7 @@ import logo from "../../assets/logos/logo_banner_negative.png";
 
 function Footer() {
   return (
-    <footer className="mt-auto p-4 bg-primary sm:p-6 ">
+    <footer className="mt-auto p-4 bg-primary sm:p-6">
       <div className="md:flex md:justify-between">
         <div className="mb-6 md:mb-0 pr-8">
           <a href="/" className="flex items-center">
