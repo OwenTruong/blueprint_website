@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import Blurb from "./Blurb";
 import About from "./About";
 import Projects from "./Projects";
+import Apply from "../Apply";
 import Footer from "../Common/Footer";
 
 function Home() {
@@ -12,12 +13,10 @@ function Home() {
       <Blurb />
       <About />
       <Projects />
-      <section className="h-96 bg-blue-100">
-        <h1>Apply?</h1>
-      </section>
-      <section className="h-40 bg-blue-400">
-        <h1>footer (this is not the correct blue)</h1>
-      </section>
+      <h1 className="text-3xl md:text-5xl pt-40 text-black text-center font-bold ">
+        Apply
+      </h1>
+      <Apply />
       <Footer />
     </div>
   );

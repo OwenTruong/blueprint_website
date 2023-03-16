@@ -8,7 +8,6 @@
   left: 0;
 }
 
-
 /* svg wave on home page (hero > blurb)*/
 .spacer-hero-waves { 
   aspect-ratio: 960/200;
@@ -20,6 +19,7 @@
   background-image: url('../../assets/wavey-transitions/hero-waves.svg');
 }
 
+
 /* svg layered curve on home page (blurb > about)*/
 .spacer-about-waves { 
   aspect-ratio: 960/200;
@@ -30,6 +30,7 @@
 .about-waves {
   background-image: url('../../assets/wavey-transitions/about-waves.svg');
 }
+
 
 /* svg layered curve on home page (blurb > about)*/
 .spacer-wave { 
