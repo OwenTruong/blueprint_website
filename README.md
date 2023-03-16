@@ -1,6 +1,6 @@
 # Stevens Blueprint Website
 
-![Blueprint](/src/assets/logo_banner.png)
+![Blueprint](/src/assets/logos/logo_banner.png)
 
 Stevens Blueprint is a (TBD) studen-run organization at Stevens Institute of Technology devoted to matching the skills of its members to our desire to see social good enacted in our community. Each semester, teams of 4-5 students work closely with a non-profit to bring technological solutions to the problems they face every day.
 
