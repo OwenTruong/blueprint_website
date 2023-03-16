@@ -1,9 +1,7 @@
-import Footer from "./Common/Footer";
-
 function Projects() {
   return (
-    <div className="flex flex-col h-screen">
-      <div className="mb-auto">
+    <div className="">
+      <div className="">
         <div style={{ backgroundColor: "#0078E8", padding: "250px" }}>
           <h1
             style={{
@@ -49,7 +47,6 @@ function Projects() {
           </h2>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

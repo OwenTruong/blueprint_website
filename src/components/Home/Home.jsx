@@ -1,22 +1,21 @@
 import "./Home.css";
 import Hero from "./Hero";
-import Who from "./Who";
-import How from "./How";
-import Footer from "../Common/Footer";
+import Blurb from "./Blurb";
+import About from "./About";
+import Projects from "./Projects";
+import Apply from "../Apply";
 
 function Home() {
   return (
-    <div className="h-screen">
+    <div>
       <Hero />
-      <Who />
-      <How />
-      <section className="h-96 bg-blue-100">
-        <h1>Apply?</h1>
-      </section>
-      <section className="h-40 bg-blue-400">
-        <h1>footer (this is not the correct blue)</h1>
-      </section>
-      <Footer />
+      <Blurb />
+      <About />
+      <Projects />
+      <h1 className="text-3xl md:text-5xl pt-40 text-black text-center font-bold ">
+        Apply
+      </h1>
+      <Apply />
     </div>
   );
 }
