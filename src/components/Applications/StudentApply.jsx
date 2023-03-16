@@ -4,7 +4,7 @@ import Form from "./StudentForm/Form";
 import Closed from "./StudentForm/FormClosed";
 import Step from "./Step";
 import FAQ from "./FAQ";
-import content from "./Content.json";
+import content from "./StudentContent.json";
 
 function StudentApply({ isOpen }) {
   const APPLICATION_STEPS = content.applicationSteps;

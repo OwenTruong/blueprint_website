@@ -1,0 +1,19 @@
+{
+  "npoSteps": [
+    {
+      "id": 1,
+      "stepName": "Preliminary Meeting",
+      "stepDescription": "Meet with an Executive Board member and a Project Leader to answer any of your questions and to discuss what we can do for you."
+    },
+    {
+      "id": 2,
+      "stepName": "Fill out Formal Project Proposal",
+      "stepDescription": "Includes information about the club so we get a better idea of your vision"
+    },
+    {
+      "id": 3,
+      "stepName": "Begin Project Development",
+      "stepDescription": "Stay in contact with your project lead and product manager!"
+    }
+  ]
+}
