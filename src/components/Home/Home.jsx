@@ -4,7 +4,7 @@ import Blurb from "./Blurb";
 import About from "./About";
 import Projects from "./Projects";
 import Apply from "../Apply";
-import Footer from "../Common/Footer";
+// import Footer from "../Common/Footer";
 
 function Home() {
   return (
@@ -17,7 +17,6 @@ function Home() {
         Apply
       </h1>
       <Apply />
-      <Footer />
     </div>
   );
 }

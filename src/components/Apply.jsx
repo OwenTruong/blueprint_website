@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/logos/logo.png";
-import Footer from "./Common/Footer";
 
 function Apply() {
   return (
@@ -36,7 +35,6 @@ function Apply() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
