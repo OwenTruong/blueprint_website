@@ -1,4 +1,4 @@
-import Footer from "./Common/Footer";
+import Footer from "../Common/Footer";
 
 function Contact() {
   return (
