@@ -23,19 +23,17 @@ function StudentApply({ isOpen }) {
   ));
 
   return (
-    <div className="flex flex-col h-screen mb-auto">
-      <div className="mb-auto px-40">
-        <div className="px-40">
-          <h1 className="text-4xl py-8">Developer Application Process</h1>
-          <div>{stepDescriptionBlocks}</div>
-        </div>
-        <div className="px-40">
-          <h1 className="text-4xl py-8">Frequently Asked Questions (FAQ)</h1>
-          <div>{faqBlocks}</div>
-        </div>
-        <div className="grid h-screen place-items-center">
-          {isOpen ? <Form /> : <FormClosed />}
-        </div>
+    <div className="flex flex-col min-h-screen px-80">
+      <div>
+        <h1 className="text-4xl py-8">Developer Application Process</h1>
+        <div>{stepDescriptionBlocks}</div>
+      </div>
+      <div>
+        <h1 className="text-4xl py-8">Frequently Asked Questions (FAQ)</h1>
+        <div>{faqBlocks}</div>
+      </div>
+      <div className="flex justify-center py-24">
+        {isOpen ? <Form /> : <FormClosed />}
       </div>
     </div>
   );
