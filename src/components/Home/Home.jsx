@@ -1,8 +1,8 @@
 import "./Home.css";
-import Hero from "./Hero";
-import Blurb from "./Blurb";
-import About from "./About";
-import Projects from "./Projects";
+import Hero from "./Sections/Hero";
+import Blurb from "./Sections/Blurb";
+import About from "./Sections/About";
+import Projects from "./Sections/Projects";
 import Apply from "../Apply";
 
 function Home() {

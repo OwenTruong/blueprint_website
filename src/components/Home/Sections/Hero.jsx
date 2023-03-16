@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { particlesOptions } from "./ParticlesOptions";
-import logo from "../../assets/logos/logo_banner.png";
+import logo from "../../../assets/logos/logo_banner.png";
 
 function Hero() {
   const particlesInit = async (main) => {
@@ -10,7 +10,7 @@ function Hero() {
   };
 
   return (
-    <section className="relative h-[75vh] m-0 z-0 flex justify-center items-center content-center  border-none">
+    <section className="relative h-[80vh] m-0 z-0 flex justify-center items-center content-center  border-none">
       <Particles
         className="tsparticles border-none"
         init={particlesInit}

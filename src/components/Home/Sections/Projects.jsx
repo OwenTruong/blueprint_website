@@ -2,7 +2,7 @@ function Projects() {
   return (
     <div>
       <section className="relative h-fit bg-negative border-none">
-        <div className="pt-24 px-20 py-5">
+        <div className="pt-24 md:px-32 py-5">
           <h1 className="text-5xl text-black text-center font-bold py-5">Projects</h1>
           <p className="text-2xl text-black text-center">
             [Descriptions Here] Lorem ipsum dolor sit, amet consectetur adipisicing elit.
