@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
-import Footer from "../Common/Footer";
 import Form from "./StudentForm/Form";
-import Closed from "./StudentForm/FormClosed";
+import FormClosed from "./StudentForm/FormClosed";
 import Step from "./Step";
 import FAQ from "./FAQ";
 import content from "./Content.json";
@@ -24,7 +23,7 @@ function StudentApply({ isOpen }) {
   ));
 
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col h-screen mb-auto">
       <div className="mb-auto px-40">
         <div className="px-40">
           <h1 className="text-4xl py-8">Developer Application Process</h1>
@@ -35,10 +34,9 @@ function StudentApply({ isOpen }) {
           <div>{faqBlocks}</div>
         </div>
         <div className="grid h-screen place-items-center">
-          {isOpen ? <Form /> : <Closed />}
+          {isOpen ? <Form /> : <FormClosed />}
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
