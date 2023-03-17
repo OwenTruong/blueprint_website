@@ -24,7 +24,7 @@ function Nonprofits() {
     <div className="flex flex-col min-h-screen px-80">
       <div>
         <h1 className="text-4xl py-8">Non-Profit Application Process</h1>
-        <div>{stepDescriptionBlocks}</div>
+        {stepDescriptionBlocks}
       </div>
       <div>
         <h1 className="text-4xl py-8">Frequently Asked Questions (FAQ)</h1>
