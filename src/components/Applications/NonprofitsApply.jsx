@@ -1,12 +1,9 @@
-import PropTypes from "prop-types";
-import Form from "./StudentForm/Form";
-import FormClosed from "./StudentForm/FormClosed";
 import Step from "./Step";
 import FAQ from "./FAQ";
-import content from "./StudentContent.json";
+import content from "./NpoContent.json";
 
-function StudentApply({ isOpen }) {
-  const APPLICATION_STEPS = content.applicationSteps;
+function Nonprofits() {
+  const APPLICATION_STEPS = content.npoSteps;
   const FREQUENTLY_ASKED_QUESTIONS = content.frequentlyAskedQuestions;
 
   const stepDescriptionBlocks = APPLICATION_STEPS.map((step) => (
@@ -22,25 +19,20 @@ function StudentApply({ isOpen }) {
     <FAQ key={question.id} question={question.question} answer={question.answer} />
   ));
 
+  // TODO: Add Sample Proposal to firebase server and link
   return (
     <div className="flex flex-col min-h-screen px-80">
       <div>
-        <h1 className="text-4xl py-8">Developer Application Process</h1>
-        <div>{stepDescriptionBlocks}</div>
+        <h1 className="text-4xl py-8">Non-Profit Application Process</h1>
+        {stepDescriptionBlocks}
       </div>
       <div>
         <h1 className="text-4xl py-8">Frequently Asked Questions (FAQ)</h1>
-        <div>{faqBlocks}</div>
+        {faqBlocks}
       </div>
-      <div className="flex justify-center py-24">
-        {isOpen ? <Form /> : <FormClosed />}
-      </div>
+      <div className="flex justify-center py-24"> Sample Proposal </div>
     </div>
   );
 }
 
-StudentApply.propTypes = {
-  isOpen: PropTypes.bool.isRequired,
-};
-
-export default StudentApply;
+export default Nonprofits;
