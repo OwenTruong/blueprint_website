@@ -28,7 +28,7 @@ function Nonprofits() {
       </div>
       <div>
         <h1 className="text-4xl py-8">Frequently Asked Questions (FAQ)</h1>
-        <div>{faqBlocks}</div>
+        {faqBlocks}
       </div>
       <div className="flex justify-center py-24"> Sample Proposal </div>
     </div>
