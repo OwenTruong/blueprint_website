@@ -15,5 +15,22 @@
       "stepName": "Begin Project Development",
       "stepDescription": "Stay in contact with your project lead and product manager!"
     }
+  ],
+  "frequentlyAskedQuestions": [
+    {
+      "id": 1,
+      "question": "How often do project teams and nonprofits meet?",
+      "answer": "We try to meet frequently at least every 2-4 weeks to ensure that we are meeting your requirements. There are two set meetings at the end of each semester where we meet to present the final MVP and for the final handoff"
+    },
+    {
+      "id": 2,
+      "question": "What kind of projects can Blueprint do for us?",
+      "answer": "We try to find a balance between a project that is both challenging for Blueprint, but accomplishable within a year. We move away from projects that consist of just a simple website, and using website builders like Wix. The projects can be web-based or a mobile application!"
+    },
+    {
+      "id": 3,
+      "question": "Does Blueprint maintain the projects for us?",
+      "answer": "Blueprint guarantees a deliverable with 2-3 key features by the end of the year commitment. We will provide instructions and recommendations on how to deploy, as well as extensive documentatin. Ideally, there is someone on your end who is technically skilled enough to handle basic maitenance. Of course, you can always reach out to blueprint if there are any issues. It is also not unheard of for projects leaders or members to volunteer their time to continue working with the non profit, but that is at their discretion."
+    }
   ]
 }
