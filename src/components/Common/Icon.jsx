@@ -8,8 +8,13 @@ function Icon({ svgPath, url }) {
       rel="noreferrer noopener"
       target="_blank"
     >
-      <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-        <path d={svgPath} />
+      <svg
+        className="w-10 h-10"
+        fill="currentColor"
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+      >
+        <path fillRule="evenodd" d={svgPath} clipRule="evenodd" />
       </svg>
     </a>
   );

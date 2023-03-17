@@ -1,4 +1,12 @@
+import Icon from "../Common/Icon";
+import content from "./Icons.json";
+
 function Contact() {
+  const Icons = content.icons;
+  const iconComponents = Icons.map((icon) => (
+    <Icon key={icon.id} svgPath={icon.path} url={icon.url} />
+  ));
+
   return (
     <div className="flex flex-col min-h-screen p-80">
       <div className="mb-auto">
@@ -11,6 +19,7 @@ function Contact() {
             sit.blueprint@gmail.com
           </a>
         </div>
+        <div className="py-8">{iconComponents}</div>
       </div>
     </div>
   );
