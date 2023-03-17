@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo_banner_negative.png";
+import logo from "../../assets/logos/logo_banner_negative.png";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,37 +43,45 @@ function Navbar() {
             <li>
               <Link
                 to="/about"
-                class="block py-2 pl-3 pr-4 text-white md:text-gray-300 rounded-lg border-primary border-2 md:rounded-none md:border-x-0 md:border-t-0 hover:md:border-secondary hover:border-secondary md:border-b-2 md:hover:text-white md:p-0 md:"
+                className="relative group py-2 pl-3 pr-4 text-white md:text-gray-300 rounded-lg md:rounded-none md:hover:text-white md:p-0 md:hover:transition md:hover:duration-200"
                 onClick={() => setIsOpen(false)}
               >
                 About
+                <span className="absolute -bottom-1 left-1/2 w-0 h-0.5 bg-secondary group-hover:w-1/2 group-hover:transition-all duration-75" />
+                <span className="absolute -bottom-1 right-1/2 w-0 h-0.5 bg-secondary group-hover:w-1/2 group-hover:transition-all duration-75" />
               </Link>
             </li>
             <li>
               <Link
                 to="projects"
-                class="block py-2 pl-3 pr-4 text-white md:text-gray-300 rounded-lg border-primary border-2 md:rounded-none md:border-x-0 md:border-t-0 hover:md:border-secondary hover:border-secondary md:border-b-2 md:hover:text-white md:p-0 md:"
+                className="relative group py-2 pl-3 pr-4 text-white md:text-gray-300 rounded-lg md:rounded-none md:hover:text-white md:p-0 md:hover:transition md:hover:duration-200"
                 onClick={() => setIsOpen(false)}
               >
                 Projects
+                <span className="absolute -bottom-1 left-1/2 w-0 h-0.5 bg-secondary group-hover:w-1/2 group-hover:transition-all duration-75" />
+                <span className="absolute -bottom-1 right-1/2 w-0 h-0.5 bg-secondary group-hover:w-1/2 group-hover:transition-all duration-75" />
               </Link>
             </li>
             <li>
               <Link
                 to="apply"
-                class="block py-2 pl-3 pr-4 text-white md:text-gray-300 rounded-lg border-primary border-2 md:rounded-none md:border-x-0 md:border-t-0 hover:md:border-secondary hover:border-secondary md:border-b-2 md:hover:text-white md:p-0 md:"
+                className="relative group py-2 pl-3 pr-4 text-white md:text-gray-300 rounded-lg md:rounded-none md:hover:text-white md:p-0 md:hover:transition md:hover:duration-200"
                 onClick={() => setIsOpen(false)}
               >
                 Apply
+                <span className="absolute -bottom-1 left-1/2 w-0 h-0.5 bg-secondary group-hover:w-1/2 group-hover:transition-all duration-75" />
+                <span className="absolute -bottom-1 right-1/2 w-0 h-0.5 bg-secondary group-hover:w-1/2 group-hover:transition-all duration-75" />
               </Link>
             </li>
             <li>
               <Link
                 to="contact"
-                class="block py-2 pl-3 pr-4 text-white md:text-gray-300 rounded-lg border-primary border-2 md:rounded-none md:border-x-0 md:border-t-0 hover:md:border-secondary hover:border-secondary md:border-b-2 md:hover:text-white md:p-0 md:"
+                className="relative group py-2 pl-3 pr-4 text-white md:text-gray-300 rounded-lg md:rounded-none md:hover:text-white md:p-0 md:hover:transition md:hover:duration-200"
                 onClick={() => setIsOpen(false)}
               >
                 Contact
+                <span className="absolute -bottom-1 left-1/2 w-0 h-0.5 bg-secondary group-hover:w-1/2 group-hover:transition-all duration-75" />
+                <span className="absolute -bottom-1 right-1/2 w-0 h-0.5 bg-secondary group-hover:w-1/2 group-hover:transition-all duration-75" />
               </Link>
             </li>
           </ul>
