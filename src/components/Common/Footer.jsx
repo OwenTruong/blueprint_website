@@ -61,7 +61,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <hr className="my-6 border-gray-200 sm:mx-auto " />
+      <hr className="my-6 border-gray-200 sm:mx-auto" />
       <div className="sm:flex sm:items-center sm:justify-between">
         <span className="text-sm text-gray-100 sm:text-center ">
           © 2023 Stevens Blueprint
@@ -69,7 +69,9 @@ function Footer() {
         <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
           <a
             href="https://www.linkedin.com/company/stevens-blueprint/about/"
-            className="text-gray-100 hover:text-gray-100 "
+            className="text-gray-100 hover:text-gray-100"
+            rel="noreferrer noopener"
+            target="_blank"
           >
             <svg
               className="w-5 h-5"
@@ -83,7 +85,9 @@ function Footer() {
           </a>
           <a
             href="https://www.instagram.com/stevensblueprint/"
-            className="text-gray-100 hover:text-gray-100 "
+            className="text-gray-100 hover:text-gray-100"
+            rel="noreferrer noopener"
+            target="_blank"
           >
             <svg
               className="w-5 h-5"
@@ -99,7 +103,12 @@ function Footer() {
             </svg>
             <span className="sr-only">Instagram page</span>
           </a>
-          <a href="/" className="text-gray-100 hover:text-gray-100 ">
+          <a
+            href="/"
+            className="text-gray-100 hover:text-gray-100"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
             <svg
               className="w-5 h-5"
               fill="currentColor"
@@ -112,7 +121,9 @@ function Footer() {
           </a>
           <a
             href="https://github.com/stevensblueprint"
-            className="text-gray-100 hover:text-gray-100 "
+            className="text-gray-100 hover:text-gray-100"
+            rel="noreferrer noopener"
+            target="_blank"
           >
             <svg
               className="w-5 h-5"
