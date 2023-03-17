@@ -1,10 +1,10 @@
-function Closed() {
+function FormClosed() {
   const recruitingCycle = "Fall 2022 - Spring 2023";
   return (
-    <p className="text-2xl font-bold">
+    <div className="text-2xl font-bold">
       Applications for {recruitingCycle} are now closed.{" "}
-    </p>
+    </div>
   );
 }
 
-export default Closed;
+export default FormClosed;
