@@ -1,24 +1,16 @@
 import { Link } from "react-router-dom";
-import blueprintLogo from "../assets/logos/logo_negative.png";
+import blueprintLogo from "../../assets/logos/logo_negative.png";
+import Header from "./Header";
+import content from "./ProjectsContent.json";
 
 function Projects() {
   return (
     <div className="">
-      <div className="flex bg-primary py-24 px-10 md:px-52">
-        <div className="flex flex-col w-3/4">
-          <h1 className="text-6xl font-extrabold text-white pb-4">Projects</h1>
-          <p className="text-xl text-white">
-            It&apos;s our priority to build projects that are both accessible and
-            transparent.
-          </p>
-          <p className="text-xl text-white">
-            Feel free to browse some of our open-source solutions below.
-          </p>
-        </div>
-        <div className="flex justify-center items-center w-1/4">
-          <img src={blueprintLogo} alt="Replace This!" className="h-32" />
-        </div>
-      </div>
+      <Header
+        title={content.header.title}
+        description={content.header.description}
+        image={content.header.image}
+      />
       <div className="bg-white py-20 px-10 md:px-52">
         <h2 className="text-5xl font-extrabold text-primary text-center pb-10">
           Project Showcase

@@ -6,7 +6,7 @@ import ErrorPage from "./components/ErrorPage";
 import About from "./components/About";
 import Nonprofits from "./components/Applications/NonprofitsApply";
 import Apply from "./components/Apply";
-import Projects from "./components/Projects";
+import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import Home from "./components/Home/Home";
 import Footer from "./components/Common/Footer";

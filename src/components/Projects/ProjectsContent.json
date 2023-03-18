@@ -1,0 +1,35 @@
+{
+  "header": {
+    "id": 1,
+    "title": "Projects",
+    "description": "It's our priority to build projects that are both accessible and transparent. Feel free to browse some of our open-source solutions below.",
+    "image": "https://via.placeholder.com/150"
+  },
+  "showcase": {
+    "id": 1,
+    "title": "Project Showcase",
+    "projectCards": [
+      {
+        "id": 1,
+        "title": "Project 1",
+        "description": "This is a project description",
+        "image": "https://via.placeholder.com/150",
+        "link": "https://www.google.com"
+      },
+      {
+        "id": 2,
+        "title": "Project 2",
+        "description": "This is a project description",
+        "image": "https://via.placeholder.com/150",
+        "link": "https://www.google.com"
+      },
+      {
+        "id": 3,
+        "title": "Project 3",
+        "description": "This is a project description",
+        "image": "https://via.placeholder.com/150",
+        "link": "https://www.google.com"
+      }
+    ]
+  }
+}
