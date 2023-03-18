@@ -13,7 +13,7 @@ function Projects() {
             veritatis?
           </p>
         </div>
-        <div className="relative w-full h-full pt-5">
+        <div className="relative w-full h-full py-5">
           <div className="flex justify-center items-center">
             <div className="flex justify-center items-center w-72 h-44 bg-secondary border-4 border-primary rounded-3xl text-3xl text-black shadow-2xl">
               Coming Soon
