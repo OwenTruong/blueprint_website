@@ -3,7 +3,7 @@ import Hero from "./Sections/Hero";
 import Blurb from "./Sections/Blurb";
 import About from "./Sections/About";
 import Projects from "./Sections/Projects";
-import Apply from "../Apply";
+import Apply from "./Sections/Apply";
 
 function Home() {
   return (
@@ -12,9 +12,6 @@ function Home() {
       <Blurb />
       <About />
       <Projects />
-      <h1 className="text-3xl md:text-5xl pt-40 text-black text-center font-bold ">
-        Apply
-      </h1>
       <Apply />
     </div>
   );

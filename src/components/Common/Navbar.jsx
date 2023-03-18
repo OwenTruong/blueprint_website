@@ -43,45 +43,45 @@ function Navbar() {
             <li>
               <Link
                 to="/about"
-                className="relative group py-2 pl-3 pr-4 text-white md:text-gray-300 rounded-lg md:rounded-none md:hover:text-white md:p-0 md:hover:transition md:hover:duration-200"
+                className="relative group py-2 pl-3 pr-4 text-white md:text-gray-300 rounded-lg md:rounded-none md:hover:text-white md:p-0 md:hover:transition md:hover:duration-300"
                 onClick={() => setIsOpen(false)}
               >
                 About
-                <span className="absolute -bottom-1 left-1/2 w-0 h-0.5 bg-secondary group-hover:w-1/2 group-hover:transition-all duration-75" />
-                <span className="absolute -bottom-1 right-1/2 w-0 h-0.5 bg-secondary group-hover:w-1/2 group-hover:transition-all duration-75" />
+                <span className="absolute -bottom-1 left-1/2 w-0 h-0.5 rounded-r-full bg-secondary group-hover:w-1/2 group-hover:transition-all duration-300" />
+                <span className="absolute -bottom-1 right-1/2 w-0 h-0.5 rounded-l-full bg-secondary group-hover:w-1/2 group-hover:transition-all duration-300" />
               </Link>
             </li>
             <li>
               <Link
                 to="projects"
-                className="relative group py-2 pl-3 pr-4 text-white md:text-gray-300 rounded-lg md:rounded-none md:hover:text-white md:p-0 md:hover:transition md:hover:duration-200"
+                className="relative group py-2 pl-3 pr-4 text-white md:text-gray-300 rounded-lg md:rounded-none md:hover:text-white md:p-0 md:hover:transition md:hover:duration-300"
                 onClick={() => setIsOpen(false)}
               >
                 Projects
-                <span className="absolute -bottom-1 left-1/2 w-0 h-0.5 bg-secondary group-hover:w-1/2 group-hover:transition-all duration-75" />
-                <span className="absolute -bottom-1 right-1/2 w-0 h-0.5 bg-secondary group-hover:w-1/2 group-hover:transition-all duration-75" />
+                <span className="absolute -bottom-1 left-1/2 w-0 h-0.5 rounded-r-full bg-secondary group-hover:w-1/2 group-hover:transition-all duration-300" />
+                <span className="absolute -bottom-1 right-1/2 w-0 h-0.5 rounded-l-full bg-secondary group-hover:w-1/2 group-hover:transition-all duration-300" />
               </Link>
             </li>
             <li>
               <Link
                 to="apply"
-                className="relative group py-2 pl-3 pr-4 text-white md:text-gray-300 rounded-lg md:rounded-none md:hover:text-white md:p-0 md:hover:transition md:hover:duration-200"
+                className="relative group py-2 pl-3 pr-4 text-white md:text-gray-300 rounded-lg md:rounded-none md:hover:text-white md:p-0 md:hover:transition md:hover:duration-300"
                 onClick={() => setIsOpen(false)}
               >
                 Apply
-                <span className="absolute -bottom-1 left-1/2 w-0 h-0.5 bg-secondary group-hover:w-1/2 group-hover:transition-all duration-75" />
-                <span className="absolute -bottom-1 right-1/2 w-0 h-0.5 bg-secondary group-hover:w-1/2 group-hover:transition-all duration-75" />
+                <span className="absolute -bottom-1 left-1/2 w-0 h-0.5 rounded-r-full bg-secondary group-hover:w-1/2 group-hover:transition-all duration-300" />
+                <span className="absolute -bottom-1 right-1/2 w-0 h-0.5 rounded-l-full bg-secondary group-hover:w-1/2 group-hover:transition-all duration-300" />
               </Link>
             </li>
             <li>
               <Link
                 to="contact"
-                className="relative group py-2 pl-3 pr-4 text-white md:text-gray-300 rounded-lg md:rounded-none md:hover:text-white md:p-0 md:hover:transition md:hover:duration-200"
+                className="relative group py-2 pl-3 pr-4 text-white md:text-gray-300 rounded-lg md:rounded-none md:hover:text-white md:p-0 md:hover:transition md:hover:duration-300"
                 onClick={() => setIsOpen(false)}
               >
                 Contact
-                <span className="absolute -bottom-1 left-1/2 w-0 h-0.5 bg-secondary group-hover:w-1/2 group-hover:transition-all duration-75" />
-                <span className="absolute -bottom-1 right-1/2 w-0 h-0.5 bg-secondary group-hover:w-1/2 group-hover:transition-all duration-75" />
+                <span className="absolute -bottom-1 left-1/2 w-0 h-0.5 rounded-r-full bg-secondary group-hover:w-1/2 group-hover:transition-all duration-300" />
+                <span className="absolute -bottom-1 right-1/2 w-0 h-0.5 rounded-l-full bg-secondary group-hover:w-1/2 group-hover:transition-all duration-300" />
               </Link>
             </li>
           </ul>
