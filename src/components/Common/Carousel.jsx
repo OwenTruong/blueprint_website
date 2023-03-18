@@ -97,7 +97,7 @@ function Carousel({ imageData }) {
                 key={resource.title}
                 alt={resource.title}
                 className="w-auto h-96 snap-start aspect-screen bg-origin-padding bg-left-top bg-cover bg-no-repeat z-0"
-                src={resource.imageUrl}
+                src={resource.source}
               />
             );
           })}
