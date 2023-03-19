@@ -3,9 +3,9 @@ import logo from "../assets/logos/logo.png";
 
 function Apply() {
   return (
-    <div className="flex h-[80vh] justify-center items-center">
+    <div className="flex h-[90vh] justify-center items-center">
       <div className="w-1/4 mx-20 flex flex-col justify-center items-center">
-        <p className="text-2xl text-center">Students</p>
+        <p className="text-3xl text-center font-bold">Students</p>
         <img src={logo} className="object-cover py-8" alt="Blueprint Logo" />
         <p className="text-m">
           {" "}
@@ -18,7 +18,7 @@ function Apply() {
         </Link>
       </div>
       <div className="w-1/4 mx-20 flex flex-col justify-center items-center">
-        <p className="text-2xl text-center">Nonprofits</p>
+        <p className="text-3xl text-center font-bold">Nonprofits</p>
         <img src={logo} className="object-cover py-8" alt="Blueprint Logo" />
         <p className="text-m">
           {" "}
