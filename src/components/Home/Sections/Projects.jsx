@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Projects() {
   return (
     <div>
@@ -16,10 +18,16 @@ function Projects() {
         <div className="relative w-full h-full py-5">
           <div className="flex justify-center items-center">
             <div className="flex justify-center items-center w-72 h-44 bg-secondary border-4 border-primary rounded-3xl text-3xl text-black shadow-2xl">
-              Coming Soon
+              Coming Soon...
             </div>
           </div>
         </div>
+        <Link
+          to="/projects"
+          className="flex justify-center p-2 text-lg text-blue-400 text-center"
+        >
+          Read More &gt;
+        </Link>
       </section>
     </div>
   );
