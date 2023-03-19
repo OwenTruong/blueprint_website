@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Projects() {
   return (
     <div>
@@ -20,6 +22,12 @@ function Projects() {
             </div>
           </div>
         </div>
+        <Link
+          to="/projects"
+          className="flex justify-center p-2 text-lg text-blue-400 text-center"
+        >
+          Read More &gt;
+        </Link>
       </section>
     </div>
   );
