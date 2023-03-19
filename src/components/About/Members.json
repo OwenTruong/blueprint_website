@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Katie Ng",
       "team": "Executive",
-      "role": "President",
+      "position": "President",
       "LinkedIn": "https://www.linkedin.com/in/katiexng/",
       "headshot": "Some URL",
       "resume": "Some URL"
@@ -13,7 +13,7 @@
       "id": 2,
       "name": "Christian Apostol",
       "team": "Executive",
-      "role": "VP of Projects",
+      "position": "VP of Projects",
       "LinkedIn": "https://www.linkedin.com/in/capostol/",
       "headshot": "Some URL",
       "resume": "Some URL"
@@ -22,7 +22,7 @@
       "id": 3,
       "name": "Shawn Aviles",
       "team": "Executive",
-      "role": "VP of Projects",
+      "position": "VP of Projects",
       "LinkedIn": "https://www.linkedin.com/in/shawn-aviles/",
       "headshot": "Some URL",
       "resume": "Some URL"
@@ -31,7 +31,7 @@
       "id": 4,
       "name": "Christa Ruiz",
       "team": "Executive",
-      "role": "VP of Operations",
+      "position": "VP of Operations",
       "LinkedIn": "https://www.linkedin.com/in/christaruiz/",
       "headshot": "Some URL",
       "resume": "Some URL"
@@ -40,7 +40,7 @@
       "id": 5,
       "name": "Daniel Kim",
       "team": "Executive",
-      "role": "VP External (NPO)",
+      "position": "VP External (NPO)",
       "LinkedIn": "https://www.linkedin.com/in/daniel-kim-a8b525200/",
       "headshot": "Some URL",
       "resume": "Some URL"
@@ -49,7 +49,7 @@
       "id": 6,
       "name": "Andrew Krasinski",
       "team": "Executive",
-      "role": "VP External (Campus)",
+      "position": "VP External (Campus)",
       "LinkedIn": "https://www.linkedin.com/in/andrew-krasinski-407a43224/",
       "headshot": "Some URL",
       "resume": "Some URL"
@@ -58,7 +58,7 @@
       "id": 7,
       "name": "Colleen Que",
       "team": "Executive",
-      "role": "VP Technology",
+      "position": "VP Technology",
       "LinkedIn": "https://www.linkedin.com/in/colleen-que-1238841b7/",
       "headshot": "Some URL",
       "resume": "Some URL"
@@ -67,7 +67,7 @@
       "id": 8,
       "name": "Jed Alcalde",
       "team": "Executive",
-      "role": "VP Technology",
+      "position": "VP Technology",
       "LinkedIn": "https://www.linkedin.com/in/jedd-alcalde-b07b95227/",
       "headshot": "Some URL",
       "resume": "Some URL"

@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-function Icon({ svgPath, url }) {
+function Icon({ svgPath, url, size }) {
   return (
     <a
       href={url}
@@ -8,7 +8,7 @@ function Icon({ svgPath, url }) {
       rel="noreferrer noopener"
       target="_blank"
     >
-      <svg className="w-20 h-20" fill="black" viewBox="0 0 24 24" aria-hidden="true">
+      <svg className={size} fill="black" viewBox="0 0 24 24" aria-hidden="true">
         <path fillRule="evenodd" d={svgPath} clipRule="evenodd" />
       </svg>
     </a>
@@ -18,6 +18,11 @@ function Icon({ svgPath, url }) {
 Icon.propTypes = {
   svgPath: PropTypes.string.isRequired,
   url: PropTypes.string.isRequired,
+  size: PropTypes.string,
+};
+
+Icon.defaultProps = {
+  size: "w-20 h-20",
 };
 
 export default Icon;
