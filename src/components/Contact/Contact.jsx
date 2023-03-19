@@ -9,18 +9,20 @@ function Contact() {
   ));
 
   return (
-    <div className="flex flex-col min-h-screen p-80">
-      <div className="mb-auto">
-        <h1 className="text-8xl text-primary">Stay in Touch</h1>
+    <div className="flex items-center justify-center min-h-[90vh] px-10 md:px-72">
+      <div className="">
+        <h1 className="text-5xl md:text-8xl font-extrabold text-primary">
+          Stay in Touch
+        </h1>
         <div className="py-4">
           <a
             href="mailto:sit.blueprint@gmail.com"
-            className="text-4xl text-secondary underline"
+            className="text-3xl md:text-4xl text-secondary underline"
           >
             sit.blueprint@gmail.com
           </a>
         </div>
-        <div className="py-8 flex flex-wrap nowrap">{Icons}</div>
+        <div className="py-4 md:py-8 flex justify-between">{Icons}</div>
       </div>
     </div>
   );

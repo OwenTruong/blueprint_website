@@ -3,33 +3,31 @@ import logo from "../assets/logos/logo.png";
 
 function Apply() {
   return (
-    <div className="flex flex-col h-screen">
-      <div className="flex justify-center align-center py-32 mb-auto">
-        <div className="w-1/4 mx-20 flex flex-col justify-center align-center">
-          <p className="text-2xl text-center">Students</p>
-          <img src={logo} className="object-cover py-8" alt="Blueprint Logo" />
-          <p className="text-m">
-            {" "}
-            Join Blueprint to gain hands on experience and give back to the community.
-            REPLACE IMAGE ABOVE{" "}
-          </p>
-          <Link to="/studentapplication" className="text-sky-500 text-lg">
-            {" "}
-            - Learn More -{" "}
-          </Link>
-        </div>
-        <div className="w-1/4 mx-20 flex flex-col justify-center align-center">
-          <p className="text-2xl text-center">Nonprofits</p>
-          <img src={logo} className="object-cover py-8" alt="Blueprint Logo" />
-          <p className="text-m">
-            {" "}
-            Partner with Blueprint to meet your technology needs. REPLACE IMAGE ABOVE{" "}
-          </p>
-          <Link to="/nonprofits" className="text-sky-500 text-lg">
-            {" "}
-            - Learn More -{" "}
-          </Link>
-        </div>
+    <div className="flex h-[80vh] justify-center items-center">
+      <div className="w-1/4 mx-20 flex flex-col justify-center items-center">
+        <p className="text-2xl text-center">Students</p>
+        <img src={logo} className="object-cover py-8" alt="Blueprint Logo" />
+        <p className="text-m">
+          {" "}
+          Join Blueprint to gain hands on experience and give back to the community.
+          REPLACE IMAGE ABOVE{" "}
+        </p>
+        <Link to="/studentapplication" className="text-sky-500 text-lg">
+          {" "}
+          - Learn More -{" "}
+        </Link>
+      </div>
+      <div className="w-1/4 mx-20 flex flex-col justify-center items-center">
+        <p className="text-2xl text-center">Nonprofits</p>
+        <img src={logo} className="object-cover py-8" alt="Blueprint Logo" />
+        <p className="text-m">
+          {" "}
+          Partner with Blueprint to meet your technology needs. REPLACE IMAGE ABOVE{" "}
+        </p>
+        <Link to="/nonprofits" className="text-sky-500 text-lg">
+          {" "}
+          - Learn More -{" "}
+        </Link>
       </div>
     </div>
   );
