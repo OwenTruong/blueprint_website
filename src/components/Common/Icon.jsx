@@ -4,7 +4,7 @@ function Icon({ svgPath, url, size }) {
   return (
     <a
       href={url}
-      className="text-gray-100 hover:text-gray-100 pr-28"
+      className="text-gray-100 hover:text-gray-100"
       rel="noreferrer noopener"
       target="_blank"
     >

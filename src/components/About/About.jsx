@@ -38,14 +38,14 @@ function About() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <div className="mb-auto">
+      <div className="px-32">
         <div className="flex justify-center py-16">
           <Mission />
         </div>
         <Carousel imageData={carouselImages} />
-        <div>
-          <h1 className="flex justify-center text-6xl font-bold py-8">The Team</h1>
-          <div className="flex flex-wrap">{memberComponents}</div>
+        <div className="py-10">
+          <h1 className="text-center text-6xl font-bold py-8">The Team</h1>
+          <div className="flex flex-wrap justify-center">{memberComponents}</div>
         </div>
       </div>
     </div>
