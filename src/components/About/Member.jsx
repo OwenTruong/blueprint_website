@@ -8,11 +8,13 @@ function Member({ name, position, linkedin, headshot }) {
 
   return (
     <div className="p-4">
-      <img className="h-64 w-64" src={headshot} alt="" />
+      <img className="h-64 w-64 border-double border-8" src={headshot} alt="" />
       <div className="flex flex-col py-4">
         <h1 className="text-xl font-bold">{name}</h1>
-        <h2 className="text-lg italic">{position}</h2>
-        <Icon svgPath={linkedinSvg} url={linkedin} size="h-6 w-6" />
+        <div className="flex flex-row">
+          <h2 className="text-lg italic pr-2">{position}</h2>
+          <Icon svgPath={linkedinSvg} url={linkedin} size="h-6 w-6" />
+        </div>
       </div>
     </div>
   );
