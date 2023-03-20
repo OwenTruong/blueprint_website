@@ -32,16 +32,14 @@ function About() {
       key={mem.id}
       name={mem.name}
       position={mem.position}
-      linkedin={mem.linkedin}
+      linkedin={mem.LinkedIn}
     />
   ));
 
   return (
     <div className="flex flex-col min-h-screen">
       <div className="px-32">
-        <div className="flex justify-center py-16">
-          <Mission />
-        </div>
+        <Mission />
         <Carousel imageData={carouselImages} />
         <div className="py-10">
           <h1 className="text-center text-6xl font-bold py-8">The Team</h1>
