@@ -11,7 +11,7 @@ function Member({ name, position, linkedin, headshot }) {
       <img className="h-64 w-64 border-double border-8" src={headshot} alt="" />
       <div className="flex flex-col py-4">
         <h1 className="text-xl font-bold">{name}</h1>
-        <div className="flex flex-row">
+        <div className="flex">
           <h2 className="text-lg italic pr-2">{position}</h2>
           <Icon svgPath={linkedinSvg} url={linkedin} size="h-6 w-6" />
         </div>

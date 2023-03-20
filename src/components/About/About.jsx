@@ -1,10 +1,13 @@
 import Member from "./Member";
+import Mission from "./Mission";
 
 function About() {
   return (
     <div className="flex flex-col h-screen">
       <div className="mb-auto">
-        <h1>Implement about page</h1>
+        <div className="flex justify-center py-16">
+          <Mission />
+        </div>
         <Member
           name="Christian Apostol"
           position="VP of Projects"
