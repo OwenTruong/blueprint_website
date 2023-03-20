@@ -1,4 +1,4 @@
-import ApplyCards from "../../Apply";
+import ApplyCards from "../../Apply/Apply";
 
 function Apply() {
   return (
