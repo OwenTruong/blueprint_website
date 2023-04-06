@@ -1,0 +1,8 @@
+{
+  "links": [
+    ["About", "/about"],
+    ["Projects", "/projects"],
+    ["Apply", "/apply"],
+    ["Contact", "/contact"]
+  ]
+}
