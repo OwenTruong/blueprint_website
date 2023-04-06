@@ -40,8 +40,7 @@ git checkout -b "feature/featureName"
   git checkout -b "feature/aboutPage"
   ```
 
-1. add, commit, push changes; this is sent will be a pull request
-
+1. add, commit, push changes; when this is pushed from the feature branch, it will be a pull request
 ```
 git add .
 git commit -m "commit message"
