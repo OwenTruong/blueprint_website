@@ -13,7 +13,7 @@
       "id": 2,
       "name": "Christian Apostol",
       "team": "Executive",
-      "position": "VP of Projects",
+      "position": "VP Projects",
       "LinkedIn": "https://www.linkedin.com/in/capostol/",
       "headshot": "Some URL",
       "resume": "Some URL"
@@ -22,7 +22,7 @@
       "id": 3,
       "name": "Shawn Aviles",
       "team": "Executive",
-      "position": "VP of Projects",
+      "position": "VP Projects",
       "LinkedIn": "https://www.linkedin.com/in/shawn-aviles/",
       "headshot": "Some URL",
       "resume": "Some URL"
@@ -31,7 +31,7 @@
       "id": 4,
       "name": "Christa Ruiz",
       "team": "Executive",
-      "position": "VP of Operations",
+      "position": "VP Internal",
       "LinkedIn": "https://www.linkedin.com/in/christaruiz/",
       "headshot": "Some URL",
       "resume": "Some URL"
@@ -56,16 +56,7 @@
     },
     {
       "id": 7,
-      "name": "Colleen Que",
-      "team": "Executive",
-      "position": "VP Technology",
-      "LinkedIn": "https://www.linkedin.com/in/colleen-que-1238841b7/",
-      "headshot": "Some URL",
-      "resume": "Some URL"
-    },
-    {
-      "id": 8,
-      "name": "Jed Alcalde",
+      "name": "Jedd Alcalde",
       "team": "Executive",
       "position": "VP Technology",
       "LinkedIn": "https://www.linkedin.com/in/jedd-alcalde-b07b95227/",

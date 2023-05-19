@@ -1,0 +1,25 @@
+{
+    "values": [
+      {
+        "id": 1,
+        "name": "Mission",
+        "description": "At Blueprint, members are unified under our mission to amplify impact where technology solutions make sense and drive positive change."
+      },
+      {
+        "id": 2,
+        "name": "Quality",
+        "description": "Projects are carefully selected to create lasting impact, and our teams treat all projects with the utmost care and integrity."
+      },
+      {
+        "id": 3,
+        "name": "Growth",
+        "description": "Members are invested in each other's academic, professional, and social growth. We seek to sustain a continuous cycle of learning and teaching."
+      },
+      {
+        "id": 4,
+        "name": "Community",
+        "description": "Though our work stems from our passion for technology, we strive to build meaningful relationships that extend well beyond the scope of the organization."
+      }
+    ]
+}
+  
