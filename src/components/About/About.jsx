@@ -1,8 +1,10 @@
 /* eslint-disable global-require */
 import Member from "./Member";
 import Mission from "./Mission";
+import Value from "./Value";
 import Carousel from "../Common/Carousel";
 import Members from "./Members.json";
+import Values from "./Values.json";
 
 function About() {
   const carouselImages = {
@@ -36,10 +38,23 @@ function About() {
     />
   ));
 
+  const VALUES = Values.values;
+  const valueComponents = VALUES.map((val) => (
+    <Value
+      key={val.id}
+      name={val.name}
+      description={val.description}
+    />
+  ));
+
   return (
     <div className="flex flex-col min-h-screen">
       <div className="px-32">
         <Mission />
+        <div className="py-10">
+          <h1 className="text-center text-6xl font-bold py-8">Our Values</h1>
+          <div className="flex flex-wrap justify-center">{valueComponents}</div>
+        </div>
         <Carousel imageData={carouselImages} />
         <div className="py-10">
           <h1 className="text-center text-6xl font-bold py-8">The Team</h1>
