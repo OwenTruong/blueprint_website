@@ -40,11 +40,7 @@ function About() {
 
   const VALUES = Values.values;
   const valueComponents = VALUES.map((val) => (
-    <Value
-      key={val.id}
-      name={val.name}
-      description={val.description}
-    />
+    <Value key={val.id} name={val.name} description={val.description} />
   ));
 
   return (

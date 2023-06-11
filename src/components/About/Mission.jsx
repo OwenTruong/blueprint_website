@@ -4,7 +4,7 @@ function Mission() {
       <h1 className="text-center text-6xl font-bold">Mission Statement</h1>
       <div className="text-3xl py-4">
         {" "}
-        Blueprint strives to spread technology by creating beautifully engineered products 
+        Blueprint strives to spread technology by creating beautifully engineered products
         to support social good in our community.
       </div>
     </div>
