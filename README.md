@@ -6,7 +6,7 @@ Stevens Blueprint is a (TBD) studen-run organization at Stevens Institute of Tec
 
 ## Local Setup
 
-1. clone repo locally (url to be changed but for now 2/9)
+1. clone repo locally
 
 ```
 git clone https://github.com/stevensblueprint/sit_blueprint_website.git
@@ -78,6 +78,18 @@ git fetch origin
 ```
 git pull origin main
 ```
+
+### Project Board
+**To Create Ticket:**
+1. Click "Add Item" button at bottom of "TODO" column
+1. Add Appropriate name for Ticket and create a description
+    - *Bug* Ticket: add 'Steps to Reproduce'
+    - *Task* Ticket: add 'Definition of Done' detailing what needs to be completed to mark the ticket as done
+
+**To Pick Up Ticket:**
+1. Assign ticket (can assign to yourself if you plan on working on it)
+1. Once you start working on it click "Convert to issue" button and click button to create a branch from the issue
+
 
 ## Running ESLint and Prettier
 
