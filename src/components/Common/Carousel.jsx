@@ -1,8 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 
-// TODO: Fix slider in carousel, since the buttons are inconsistent with the images that are present
-
 function Carousel({ imageData }) {
   const maxScrollWidth = useRef(0);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -18,7 +16,7 @@ function Carousel({ imageData }) {
   const moveNext = () => {
     if (
       carousel.current !== null &&
-      carousel.current.offsetWidth * currentIndex <= maxScrollWidth.current
+      carousel.current.offsetWidth * (currentIndex + 1) <= maxScrollWidth.current
     ) {
       setCurrentIndex((prevState) => prevState + 1);
     }
@@ -30,7 +28,7 @@ function Carousel({ imageData }) {
     }
 
     if (direction === "next" && carousel.current !== null) {
-      return carousel.current.offsetWidth * currentIndex >= maxScrollWidth.current;
+      return carousel.current.offsetWidth * (currentIndex + 1) >= maxScrollWidth.current;
     }
 
     return false;
