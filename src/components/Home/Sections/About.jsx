@@ -29,7 +29,7 @@ function About() {
 
   return (
     <section className="relative h-fit bg-white border-none">
-      <div className="spacer-about-waves about-waves" />
+      <div className="spacer-about-waves about-waves border-t-2 border-t-primary" />
       <div className="pt-6 pb-10">
         <div className="px-10 md:px-36 bg-white">
           <h1 className="text-3xl py-2 md:text-6xl md:pt-5 text-black text-center font-extrabold">
